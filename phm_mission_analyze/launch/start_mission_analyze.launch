@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="mission_analyze_node" pkg="phm_mission_analyze" type="mission_analyze_node.py" output="screen" >
+    <!-- <rosparam file="$(find prognostic_v_1)/params/module_during_the_task.yaml" command="load"/> -->
+  </node>
+
+</launch>

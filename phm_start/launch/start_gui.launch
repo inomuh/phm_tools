@@ -1,0 +1,14 @@
+<launch>
+    
+  <node name="phm_gui" pkg="phm_start" type="phm_gui.py" output="screen">
+      <!-- -->
+      <rosparam file="$(find phm_reliability)/params/reliability_system_parameters.yaml" command="load"/>
+      <rosparam file="$(find phm_reliability)/params/reliability_info_parameters.yaml" command="load"/>
+      <rosparam file="$(find phm_reliability)/params/reliability_type_parameters.yaml" command="load"/>
+      
+      <rosparam file="$(find phm_reliability)/params/reliability_count_parameters.yaml" command="load"/> 
+     <!-- -->
+      
+  </node>
+  
+</launch>

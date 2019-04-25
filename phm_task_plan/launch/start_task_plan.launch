@@ -1,0 +1,7 @@
+<launch>
+
+  <node name="task_plan_node" pkg="phm_task_plan" type="task_plan_node.py" output="screen" >
+    <rosparam file="$(find phm_task_plan)/params/module_during_the_task.yaml" command="load"/>
+  </node>
+
+</launch>

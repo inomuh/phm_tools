@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>phm_mission_analyze</name>
+  <version>0.0.0</version>
+  <description>The mission_analyze package</description>
+
+  <maintainer email="hakan.gencturk@inovasyonmuhendislik.com">Hakan GENCTURK</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>phm_task_plan</build_depend>
+  <build_depend>roslint</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <build_export_depend>phm_task_plan</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>phm_task_plan</exec_depend>
+
+
+  <test_depend>rosunit</test_depend>
+  
+  <export>
+
+  </export>
+</package>

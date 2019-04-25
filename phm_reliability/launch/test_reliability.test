@@ -1,0 +1,16 @@
+<launch>
+
+
+  <node name="reliability_node" pkg="phm_reliability" type="reliability_node.py" output="screen">
+      <rosparam file="$(find phm_reliability)/params/gui_test1.yaml" command="load"/>
+      <rosparam file="$(find phm_reliability)/params/gui_test2.yaml" command="load"/>
+      <rosparam file="$(find phm_reliability)/params/gui_test3.yaml" command="load"/>
+      <rosparam file="$(find phm_reliability)/params/reliability_count_parameters.yaml" command="load"/>
+  </node>
+
+  <test test-name="test_reliability_node" pkg="phm_reliability" type="test_reliability_node.py"/>
+      
+
+  
+
+</launch>

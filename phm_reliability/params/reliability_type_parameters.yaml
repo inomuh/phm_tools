@@ -1,0 +1,25 @@
+---
+Type**:
+    D3*:
+        T4:
+            type: Parallel
+        unrelated: ['T4']
+        relation: {'T4': {'Serial': [], 'Parallel': []}}
+        type*: Serial
+
+    D2*:
+        T3:
+            type: Parallel
+        T2:
+            type: Serial
+        unrelated: ['T2', 'T3']
+        relation: {'T2': {'Serial': [], 'Parallel': []},
+                   'T3': {'Serial': [], 'Parallel': []}}
+        type*: Parallel
+
+    D1*:
+        T1:
+            type: Serial
+        unrelated: ['T1']
+        relation: {'T1': {'Serial': [], 'Parallel': []}}
+        type*: Serial
