@@ -31,7 +31,7 @@ install(PROGRAMS
    src/phm_reliability/reliability_node.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 
-foreach(dir launch params src srv test)
+foreach(dir launch params src test)
     install(DIRECTORY ${dir}/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach()

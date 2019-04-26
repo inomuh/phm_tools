@@ -25,7 +25,7 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
-foreach(dir launch params src srv test)
+foreach(dir launch src test)
     install(DIRECTORY ${dir}/
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach()
