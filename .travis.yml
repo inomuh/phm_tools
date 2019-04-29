@@ -63,7 +63,7 @@ install:
   # Create the devel/setup.bash (run catkin_make with an empty workspace) and
   # source it to set the path variables.
   - cd ~/catkin_ws
-  - catkin_make_isolated
+  - catkin_make_isolated --install
   - source devel_isolated/setup.bash
 
 script:
