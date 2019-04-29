@@ -6,7 +6,7 @@
 
   <maintainer email="hakan.gencturk@inovasyonmuhendislik.com">Hakan GENCTURK</maintainer>
 
-  <license>TODO</license>
+  <license>Apache 2.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
 
