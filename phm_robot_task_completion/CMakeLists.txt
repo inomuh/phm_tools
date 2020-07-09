@@ -5,13 +5,13 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   roslint
+  rostest
   rosunit
 )
 
 catkin_python_setup()
 
 catkin_package(CATKIN_DEPENDS std_msgs )
-
 
 
 
@@ -25,5 +25,5 @@ foreach(dir launch src test)
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach()
 
-catkin_add_nosetests(test/test_class_robot_task_completion.py)
-catkin_add_nosetests(test/test_phm_robot_task_completion_node.py)
+#catkin_add_nosetests(test/test_class_robot_task_completion.py)
+#catkin_add_nosetests(test/test_phm_robot_task_completion_node.py)

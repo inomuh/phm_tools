@@ -5,13 +5,13 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   roslint
+  rostest
   rosunit
 )
 
 catkin_python_setup()
 
 catkin_package(CATKIN_DEPENDS std_msgs )
-
 
 
 
@@ -25,8 +25,8 @@ foreach(dir launch params src test)
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach()
 
-catkin_add_nosetests(test/test_class_failure_rate_calculation.py)
-catkin_add_nosetests(test/test_class_electrical_equipment.py)
-catkin_add_nosetests(test/test_class_mechanical_equipment.py)
-catkin_add_nosetests(test/test_phm_hazard_rate_calculation_node.py)
+#catkin_add_nosetests(test/test_class_failure_rate_calculation.py)
+#catkin_add_nosetests(test/test_class_electrical_equipment.py)
+#catkin_add_nosetests(test/test_class_mechanical_equipment.py)
+#catkin_add_nosetests(test/test_phm_hazard_rate_calculation_node.py)
 

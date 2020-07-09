@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   roslint
+  rostest
   rosunit
 )
 
@@ -22,5 +23,5 @@ foreach(dir launch src test)
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach()
 
-catkin_add_nosetests(test/test_phm_reliability_estimation_node.py)
-catkin_add_nosetests(test/test_class_reliability_calculation.py)
+#catkin_add_nosetests(test/test_phm_reliability_estimation_node.py)
+#catkin_add_nosetests(test/test_class_reliability_calculation.py)
