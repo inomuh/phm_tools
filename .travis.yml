@@ -51,6 +51,7 @@ before_install:
   # Prepare rosdep to install dependencies.
   - sudo apt-get install ros-kinetic-roslint
   - sudo apt-get install ros-kinetic-rosunit
+  - sudo apt-get install ros-kinetic-rostest
   - sudo rosdep init
   - rosdep update
   - pip install --user pydot
