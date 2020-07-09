@@ -25,5 +25,5 @@ foreach(dir launch src test)
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach()
 
-#catkin_add_nosetests(test/test_class_robot_task_completion.py)
-#catkin_add_nosetests(test/test_phm_robot_task_completion_node.py)
+catkin_add_nosetests(test/test_class_robot_task_completion.py)
+catkin_add_nosetests(test/test_phm_robot_task_completion_node.py)
