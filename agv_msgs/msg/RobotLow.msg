@@ -1,0 +1,9 @@
+int16 encoder_left
+int16 encoder_right
+uint16 robot_counter
+float32 robot_wl
+float32 robot_wr
+float32 robot_wl_ref
+float32 robot_wr_ref
+int8 encoder_left_diff
+int8 encoder_right_diff

@@ -1,0 +1,4087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PHM GUI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget_general">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1100</width>
+      <height>900</height>
+     </rect>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_configuration">
+     <attribute name="title">
+      <string>Robot Configuration Setup</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_configuration">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>731</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_add_object">
+       <attribute name="title">
+        <string>Robot Design</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1100</width>
+          <height>720</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab_3">
+         <attribute name="title">
+          <string>Add Module</string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_c_ao_am_add_module">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>20</y>
+            <width>421</width>
+            <height>70</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Add Module</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_c_ao_am_module_name">
+           <property name="geometry">
+            <rect>
+             <x>140</x>
+             <y>25</y>
+             <width>210</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_12">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>30</y>
+             <width>131</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Set module name:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_c_ao_am_module_fr">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>110</y>
+            <width>351</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Set failure rate</string>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_c_ao_am_module_fr">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>30</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_13">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>141</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Module failure rate:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_42">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>110</y>
+             <width>150</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Type : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_43">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>150</y>
+             <width>150</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Total failure rate:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_c_ao_am_select_type">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>110</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_44">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>70</y>
+             <width>131</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Quantity : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="spinBox_c_ao_am_quantity">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>70</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>9999999</number>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_c_ao_am_total_module_fr">
+           <property name="geometry">
+            <rect>
+             <x>160</x>
+             <y>150</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pushButton_c_ao_am_add_module">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>200</y>
+            <width>125</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_c_ao_am_list_of_modules">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>10</y>
+            <width>411</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>List of modules</string>
+          </property>
+          <widget class="QListWidget" name="listWidget_c_ao_am_list_of_modules">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>30</y>
+             <width>400</width>
+             <height>200</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_c_ao_am_delete_module">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>240</y>
+             <width>99</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Delete</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="Line" name="line_4">
+          <property name="geometry">
+           <rect>
+            <x>630</x>
+            <y>0</y>
+            <width>16</width>
+            <height>661</height>
+           </rect>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string>Add Sub-Module</string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_c_ao_asm_sub_module_fr">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>90</y>
+            <width>351</width>
+            <height>181</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Set failure rate</string>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <widget class="QLabel" name="label_18">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>30</y>
+             <width>171</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Sub-Module failure rate:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_c_ao_asm_sub_module_fr">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>30</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_36">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Quantity : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_c_ao_asm_sfr_select_type">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>110</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_40">
+           <property name="geometry">
+            <rect>
+             <x>-10</x>
+             <y>150</y>
+             <width>181</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Total failure rate:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="spinBox_c_ao_asm_sfr_quantity">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>70</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>9999999</number>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_c_ao_asm_sfr_total_component_fr">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>150</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_41">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>110</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Type : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_c_ao_asm_default_fr">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>310</y>
+            <width>351</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+            <underline>false</underline>
+            <strikeout>false</strikeout>
+            <stylestrategy>PreferAntialias</stylestrategy>
+            <kerning>true</kerning>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::NoContextMenu</enum>
+          </property>
+          <property name="title">
+           <string>Set failure rate from default equipments</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <widget class="QLabel" name="label_19">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>161</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Select the equipment :</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_c_ao_asm_select_equipment">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>30</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_20">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>150</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Type : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_c_ao_asm_select_type">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>150</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_c_ao_asm_component_fr">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>70</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_21">
+           <property name="geometry">
+            <rect>
+             <x>-10</x>
+             <y>190</y>
+             <width>181</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Total failure rate:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_30">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>110</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Quantity : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+          <widget class="QSpinBox" name="spinBox_c_ao_asm_quantity">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>110</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>9999999</number>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_c_ao_asm_set_equipment">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>240</y>
+             <width>200</width>
+             <height>50</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Set Equipment</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_c_ao_asm_total_component_fr">
+           <property name="geometry">
+            <rect>
+             <x>180</x>
+             <y>190</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_33">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>70</y>
+             <width>161</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Equipment failure rate :  </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_c_ao_asm_select_module">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>20</y>
+            <width>331</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <widget class="QComboBox" name="comboBox_c_ao_asm_select_module">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>10</y>
+             <width>171</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="currentText">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_28">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>10</y>
+             <width>141</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Select module : </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pushButton_c_ao_asm_add_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>590</y>
+            <width>125</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_c_ao_asm_set_sub_module_name">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>10</y>
+            <width>241</width>
+            <height>60</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <widget class="QLineEdit" name="lineEdit_c_ao_asm_set_sub_module_name">
+           <property name="geometry">
+            <rect>
+             <x>9</x>
+             <y>20</y>
+             <width>210</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_29">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>0</y>
+             <width>151</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Set sub-module name</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_c_ao_asm_list_of_sub_modules">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>10</y>
+            <width>401</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>List of sub-modules</string>
+          </property>
+          <widget class="QListWidget" name="listWidget_c_ao_asm_list_of_sub_modules">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>30</y>
+             <width>400</width>
+             <height>200</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_c_ao_asm_delete_sub_module">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>240</y>
+             <width>99</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Delete</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="Line" name="line_3">
+          <property name="geometry">
+           <rect>
+            <x>630</x>
+            <y>0</y>
+            <width>16</width>
+            <height>661</height>
+           </rect>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_4">
+         <attribute name="title">
+          <string>Add Component</string>
+         </attribute>
+         <widget class="QTabWidget" name="tabWidget_5">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>1100</width>
+            <height>900</height>
+           </rect>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab_10">
+           <attribute name="title">
+            <string>Default Components</string>
+           </attribute>
+           <widget class="QPushButton" name="pushButton_c_ao_ac_add_component">
+            <property name="geometry">
+             <rect>
+              <x>480</x>
+              <y>560</y>
+              <width>125</width>
+              <height>50</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Add</string>
+            </property>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ac_select_sub_module">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>331</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <widget class="QComboBox" name="comboBox_c_ao_ac_select_sub_module">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>40</y>
+               <width>171</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="currentText">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_c_ao_ac_select_module">
+             <property name="geometry">
+              <rect>
+               <x>160</x>
+               <y>10</y>
+               <width>171</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="currentText">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_9">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>141</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Select module : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_14">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>40</y>
+               <width>151</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Select sub - module : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ac_list_of_components">
+            <property name="geometry">
+             <rect>
+              <x>670</x>
+              <y>10</y>
+              <width>401</width>
+              <height>291</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>List of components</string>
+            </property>
+            <widget class="QListWidget" name="listWidget_c_ao_ac_list_of_components">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>30</y>
+               <width>400</width>
+               <height>200</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_c_ao_ac_delete_component">
+             <property name="geometry">
+              <rect>
+               <x>300</x>
+               <y>240</y>
+               <width>99</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Delete</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ac_default_fr">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>310</y>
+              <width>341</width>
+              <height>251</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+              <underline>false</underline>
+              <strikeout>false</strikeout>
+              <stylestrategy>PreferAntialias</stylestrategy>
+              <kerning>true</kerning>
+             </font>
+            </property>
+            <property name="focusPolicy">
+             <enum>Qt::NoFocus</enum>
+            </property>
+            <property name="contextMenuPolicy">
+             <enum>Qt::NoContextMenu</enum>
+            </property>
+            <property name="title">
+             <string>Set default component from equipments</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <widget class="QLabel" name="label_7">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>161</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Select the equipment :</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_c_ao_ac_select_equipment">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>30</y>
+               <width>160</width>
+               <height>27</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_8">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>110</y>
+               <width>161</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Quantity : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ac_component_fr_2">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>70</y>
+               <width>160</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_11">
+             <property name="geometry">
+              <rect>
+               <x>-10</x>
+               <y>70</y>
+               <width>181</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Equipment failure rate : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_c_ao_ac_quantity">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>110</y>
+               <width>160</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="minimum">
+              <number>1</number>
+             </property>
+             <property name="maximum">
+              <number>9999999</number>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_c_ao_ac_set_equipment">
+             <property name="geometry">
+              <rect>
+               <x>80</x>
+               <y>190</y>
+               <width>200</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Set Equipment</string>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ac_total_component_fr">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>150</y>
+               <width>160</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_34">
+             <property name="geometry">
+              <rect>
+               <x>-10</x>
+               <y>150</y>
+               <width>181</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Total failure rate : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ac_set_component_name">
+            <property name="geometry">
+             <rect>
+              <x>400</x>
+              <y>20</y>
+              <width>221</width>
+              <height>60</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ac_set_component_name">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>20</y>
+               <width>210</width>
+               <height>27</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_17">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>151</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Set component name</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ac_component_fr">
+            <property name="geometry">
+             <rect>
+              <x>50</x>
+              <y>120</y>
+              <width>351</width>
+              <height>141</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>Set failure rate</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="checked">
+             <bool>false</bool>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ac_component_fr">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>30</y>
+               <width>160</width>
+               <height>27</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_10">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>35</y>
+               <width>171</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Component failure rate:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_31">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>70</y>
+               <width>161</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Quantity : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QSpinBox" name="spinBox_c_ao_ac_sfr_quantity">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>70</y>
+               <width>160</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="minimum">
+              <number>1</number>
+             </property>
+             <property name="maximum">
+              <number>9999999</number>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ac_sfr_total_component_fr">
+             <property name="geometry">
+              <rect>
+               <x>180</x>
+               <y>110</y>
+               <width>160</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_35">
+             <property name="geometry">
+              <rect>
+               <x>-10</x>
+               <y>110</y>
+               <width>181</width>
+               <height>21</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Total failure rate : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </widget>
+           <widget class="Line" name="line">
+            <property name="geometry">
+             <rect>
+              <x>630</x>
+              <y>0</y>
+              <width>16</width>
+              <height>631</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="tab_11">
+           <attribute name="title">
+            <string>Custom Components</string>
+           </attribute>
+           <widget class="QGroupBox" name="groupBox_c_ao_ace_select_module">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>20</y>
+              <width>341</width>
+              <height>111</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <widget class="QComboBox" name="comboBox_c_ao_ace_select_module">
+             <property name="geometry">
+              <rect>
+               <x>170</x>
+               <y>10</y>
+               <width>171</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="currentText">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label">
+             <property name="geometry">
+              <rect>
+               <x>20</x>
+               <y>10</y>
+               <width>141</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Select module : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_c_ao_ace_select_sub_module">
+             <property name="geometry">
+              <rect>
+               <x>170</x>
+               <y>40</y>
+               <width>171</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="currentText">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>40</y>
+               <width>151</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Select sub - module : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ace_set_element_name">
+            <property name="geometry">
+             <rect>
+              <x>390</x>
+              <y>20</y>
+              <width>241</width>
+              <height>321</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ace_set_element_name">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>80</y>
+               <width>190</width>
+               <height>27</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>60</y>
+               <width>141</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Set element name</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ace_set_element_variable_name">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>140</y>
+               <width>190</width>
+               <height>27</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>120</y>
+               <width>231</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Set variable name of the element</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_c_ao_ace_add_component_element">
+             <property name="geometry">
+              <rect>
+               <x>40</x>
+               <y>250</y>
+               <width>125</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Add</string>
+             </property>
+            </widget>
+            <widget class="QGroupBox" name="groupBox_c_ao_ace_set_element_value">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>180</y>
+               <width>211</width>
+               <height>60</height>
+              </rect>
+             </property>
+             <property name="title">
+              <string>Set element value:</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+             <property name="checkable">
+              <bool>false</bool>
+             </property>
+             <property name="checked">
+              <bool>false</bool>
+             </property>
+             <widget class="QLineEdit" name="lineEdit_c_ao_ace_set_element_value">
+              <property name="enabled">
+               <bool>true</bool>
+              </property>
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>30</y>
+                <width>190</width>
+                <height>27</height>
+               </rect>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QLabel" name="label_32">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>0</y>
+               <width>151</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Set component name</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ace_set_component_name">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>20</y>
+               <width>190</width>
+               <height>27</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ace_list_of_elements">
+            <property name="geometry">
+             <rect>
+              <x>670</x>
+              <y>70</y>
+              <width>411</width>
+              <height>291</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>List of elements</string>
+            </property>
+            <widget class="QListWidget" name="listWidget_c_ao_ace_list_of_elements">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>30</y>
+               <width>400</width>
+               <height>200</height>
+              </rect>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="pushButton_c_ao_ace_delete_element">
+             <property name="geometry">
+              <rect>
+               <x>300</x>
+               <y>240</y>
+               <width>99</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Delete</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="Line" name="line_2">
+            <property name="geometry">
+             <rect>
+              <x>630</x>
+              <y>0</y>
+              <width>16</width>
+              <height>631</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+           </widget>
+           <widget class="QComboBox" name="comboBox_c_ao_ace_select_component">
+            <property name="geometry">
+             <rect>
+              <x>810</x>
+              <y>30</y>
+              <width>171</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="currentText">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_3">
+            <property name="geometry">
+             <rect>
+              <x>660</x>
+              <y>30</y>
+              <width>141</width>
+              <height>22</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Select component : </string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="Line" name="line_5">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>370</y>
+              <width>621</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_c_ao_ac_set_formula">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>380</y>
+              <width>611</width>
+              <height>201</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string/>
+            </property>
+            <widget class="QPushButton" name="pushButton_c_ao_ac_set_formula">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>130</y>
+               <width>150</width>
+               <height>50</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Set Formula</string>
+             </property>
+            </widget>
+            <widget class="QPlainTextEdit" name="plainTextEdit_c_ao_ac_set_formula">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>90</y>
+               <width>421</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="plainText">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_15">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>60</y>
+               <width>231</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Set formula of component</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QLineEdit" name="lineEdit_c_ao_ace_component_fr">
+             <property name="geometry">
+              <rect>
+               <x>450</x>
+               <y>90</y>
+               <width>150</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_16">
+             <property name="geometry">
+              <rect>
+               <x>450</x>
+               <y>60</y>
+               <width>141</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Failure Rate: </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+            <widget class="QComboBox" name="comboBox_c_ao_ace_select_component_2">
+             <property name="geometry">
+              <rect>
+               <x>150</x>
+               <y>30</y>
+               <width>171</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="currentText">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>30</y>
+               <width>141</width>
+               <height>22</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>Select component : </string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_set_type">
+       <attribute name="title">
+        <string>Configuration Setup</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_types">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1100</width>
+          <height>700</height>
+         </rect>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::TabFocus</enum>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Sub Module Configuration</string>
+         </attribute>
+         <widget class="QLabel" name="label_configurations_4">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>240</y>
+            <width>111</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Configurations</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_select_first_comp">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>20</y>
+            <width>171</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select first component</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_result">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>340</y>
+            <width>450</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_select_second_comp">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>40</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="Line" name="line_22">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>20</y>
+            <width>20</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_sub_module_list_3">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>30</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select system:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_set_types_4">
+          <property name="geometry">
+           <rect>
+            <x>470</x>
+            <y>110</y>
+            <width>591</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <widget class="QPushButton" name="pushButton_configuration_set_comp_type">
+           <property name="geometry">
+            <rect>
+             <x>480</x>
+             <y>10</y>
+             <width>99</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Set</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_24">
+           <property name="geometry">
+            <rect>
+             <x>187</x>
+             <y>10</y>
+             <width>16</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>is</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_25">
+           <property name="geometry">
+            <rect>
+             <x>290</x>
+             <y>10</y>
+             <width>16</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>to</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_configuration_second_component">
+           <property name="geometry">
+            <rect>
+             <x>310</x>
+             <y>10</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_configuration_type_of_component">
+           <property name="geometry">
+            <rect>
+             <x>205</x>
+             <y>10</y>
+             <width>80</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_configuration_first_component">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="pushButton_delete_component_config">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>300</y>
+            <width>101</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>119</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_configurations_of_components">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>260</y>
+            <width>440</width>
+            <height>371</height>
+           </rect>
+          </property>
+          <property name="dragDropMode">
+           <enum>QAbstractItemView::NoDragDrop</enum>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_add_component_config">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>260</y>
+            <width>99</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_select_second_comp">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>20</y>
+            <width>191</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select second component</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_select_first_comp">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>40</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_select_final_configuration_of_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>600</y>
+            <width>201</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select as final configuraiton</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_first_component">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>70</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_failure_rate_7">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>70</y>
+            <width>91</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Failure rate:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_sub_module_list_2">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>59</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select module:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_components">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>260</y>
+            <width>256</width>
+            <height>371</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_sub_module_list">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>89</y>
+            <width>131</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select sub-module:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_st_sc_select_system">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>30</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_components">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>240</y>
+            <width>91</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Components</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_st_sc_select_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>89</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_st_sc_select_module">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>59</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_failure_rate_8">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>120</y>
+            <width>171</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Sub-module failure rate:</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_second_component">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>70</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>Module Configuration</string>
+         </attribute>
+         <widget class="QPushButton" name="pushButton_delete_sub_module_config">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>300</y>
+            <width>101</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_add_sub_module_config">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>260</y>
+            <width>99</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_module">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>89</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_second_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>70</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_set_types_5">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>110</y>
+            <width>591</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <widget class="QPushButton" name="pushButton_configuration_set_sub_module_type">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>10</y>
+             <width>99</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Set</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_26">
+           <property name="geometry">
+            <rect>
+             <x>177</x>
+             <y>10</y>
+             <width>16</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>is</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_27">
+           <property name="geometry">
+            <rect>
+             <x>280</x>
+             <y>10</y>
+             <width>16</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>to</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_configuration_second_sub_module">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>10</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_configuration_type_of_sub_module">
+           <property name="geometry">
+            <rect>
+             <x>195</x>
+             <y>10</y>
+             <width>80</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_configuration_first_sub_module">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_st_ssm_select_module">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>59</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_failure_rate_9">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>90</y>
+            <width>141</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Module failure rate:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_select_first_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>40</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_st_ssm_select_system">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>30</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_first_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>70</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_select_first_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>20</y>
+            <width>171</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select first sub-module</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_select_second_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>20</y>
+            <width>191</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select second sub-module</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_configurations_of_sub_modules">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>260</y>
+            <width>440</width>
+            <height>371</height>
+           </rect>
+          </property>
+          <property name="dragDropMode">
+           <enum>QAbstractItemView::NoDragDrop</enum>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_sub_modules">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>260</y>
+            <width>256</width>
+            <height>371</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_failure_rate_10">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>70</y>
+            <width>91</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Failure rate:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_sub_module_list_4">
+          <property name="geometry">
+           <rect>
+            <x>70</x>
+            <y>30</y>
+            <width>111</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select system:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_module_list">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>59</y>
+            <width>101</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select module:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_select_final_configuration_of_module">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>600</y>
+            <width>201</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select as final configuraiton</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configurations_5">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>240</y>
+            <width>111</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Configurations</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_select_second_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>40</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_sub_module">
+          <property name="geometry">
+           <rect>
+            <x>120</x>
+            <y>240</y>
+            <width>91</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Sub-modules</string>
+          </property>
+         </widget>
+         <widget class="Line" name="line_32">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>20</y>
+            <width>20</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_set_module_types_2">
+         <attribute name="title">
+          <string>System Configuration</string>
+         </attribute>
+         <widget class="QLabel" name="label_configurations_3">
+          <property name="geometry">
+           <rect>
+            <x>500</x>
+            <y>240</y>
+            <width>111</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Configurations</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_configurations_of_modules">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>260</y>
+            <width>440</width>
+            <height>371</height>
+           </rect>
+          </property>
+          <property name="dragDropMode">
+           <enum>QAbstractItemView::NoDragDrop</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_system_list">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>30</y>
+            <width>101</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select system:</string>
+          </property>
+         </widget>
+         <widget class="QListWidget" name="listWidget_modules">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>260</y>
+            <width>256</width>
+            <height>371</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_modules">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>240</y>
+            <width>61</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Modules</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_second_module">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>70</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_first_module">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>70</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_delete_module_config">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>300</y>
+            <width>101</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_add_module_config">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>260</y>
+            <width>99</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Add</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_st_sm_select_system">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>30</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_select_second_module">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>40</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_set_types_3">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>110</y>
+            <width>591</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <widget class="QPushButton" name="pushButton_configuration_set_module_type">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>10</y>
+             <width>99</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Set</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_22">
+           <property name="geometry">
+            <rect>
+             <x>177</x>
+             <y>10</y>
+             <width>16</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>is</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_23">
+           <property name="geometry">
+            <rect>
+             <x>280</x>
+             <y>10</y>
+             <width>16</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <italic>true</italic>
+            </font>
+           </property>
+           <property name="text">
+            <string>to</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_configuration_second_module">
+           <property name="geometry">
+            <rect>
+             <x>300</x>
+             <y>10</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_configuration_type_of_module">
+           <property name="geometry">
+            <rect>
+             <x>195</x>
+             <y>10</y>
+             <width>80</width>
+             <height>27</height>
+            </rect>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit_configuration_first_module">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>160</width>
+             <height>27</height>
+            </rect>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="label_configuration_select_second_module">
+          <property name="geometry">
+           <rect>
+            <x>780</x>
+            <y>20</y>
+            <width>191</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select second module</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_select_first_module">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>40</y>
+            <width>161</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_select_first_module">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>20</y>
+            <width>171</width>
+            <height>17</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select first module</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_failure_rate_5">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>70</y>
+            <width>91</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Failure rate:</string>
+          </property>
+         </widget>
+         <widget class="Line" name="line_21">
+          <property name="geometry">
+           <rect>
+            <x>360</x>
+            <y>20</y>
+            <width>20</width>
+            <height>191</height>
+           </rect>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_failure_rate_system">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>60</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_system_failure_rate">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>61</y>
+            <width>141</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>System failure rate:</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_select_final_configuration_of_system">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>600</y>
+            <width>201</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select as final configuraiton</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_reliability_model">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>120</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_reliability_type">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>120</y>
+            <width>181</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select reliability model : </string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox_configuration_unit">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>180</y>
+            <width>160</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_unit">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>180</y>
+            <width>100</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Select unit : </string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit_configuration_reliability_shape_parameter">
+          <property name="geometry">
+           <rect>
+            <x>190</x>
+            <y>150</y>
+            <width>75</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_configuration_shape_parameter">
+          <property name="geometry">
+           <rect>
+            <x>47</x>
+            <y>150</y>
+            <width>130</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Shape Parameter :</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="wordWrap">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_c_ao_start_analysis">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>740</y>
+        <width>161</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>START ANALYSIS</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_c_ao_save">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>740</y>
+        <width>100</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SAVE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_c_ao_load">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>740</y>
+        <width>100</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>LOAD</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_monitoring">
+     <attribute name="title">
+      <string>Monitoring and Analysis</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidget_monitoring">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1100</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_hazard_rate">
+       <attribute name="title">
+        <string>Hazard Rate Analysis</string>
+       </attribute>
+       <widget class="QGroupBox" name="groupBox_sys_failure_rate">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>300</y>
+          <width>200</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>System Failure Rate - λ</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <widget class="QLineEdit" name="lineEdit_m_sys_lambda">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>200</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget_monitoring_hazard_rate" native="true">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>360</y>
+          <width>800</width>
+          <height>425</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_hazard_rate_sensor_list">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>20</y>
+          <width>400</width>
+          <height>290</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Sensors</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_monitoring_deleted_sensor">
+         <property name="geometry">
+          <rect>
+           <x>300</x>
+           <y>30</y>
+           <width>100</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Delete</string>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_sensor_list">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>111</width>
+           <height>17</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Sensor List</string>
+         </property>
+        </widget>
+        <widget class="QListWidget" name="listWidget_monitoring_hazard_rate_sensor_list">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>30</y>
+           <width>250</width>
+           <height>250</height>
+          </rect>
+         </property>
+         <property name="dragDropMode">
+          <enum>QAbstractItemView::NoDragDrop</enum>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_hazard_rate_add_sensor">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>130</y>
+          <width>440</width>
+          <height>170</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+          <underline>false</underline>
+          <strikeout>false</strikeout>
+          <stylestrategy>PreferAntialias</stylestrategy>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::NoContextMenu</enum>
+        </property>
+        <property name="title">
+         <string>Add Sensor</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="flat">
+         <bool>false</bool>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <widget class="QLabel" name="label_37">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>121</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Select a sensor:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox_m_hazard_rate_select_sensor">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>30</y>
+           <width>151</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_m_hazard_rate_select_sensor_value">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>70</y>
+           <width>151</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_38">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>70</y>
+           <width>141</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Sensor value:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_m_hazard_rate_refresh_sensor">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>30</y>
+           <width>125</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Refresh</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_m_hazard_rate_add_sensor">
+         <property name="geometry">
+          <rect>
+           <x>170</x>
+           <y>110</y>
+           <width>100</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Add Sensor</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_sys_select_failure_rate_type">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>300</y>
+          <width>200</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Select Failure Rate</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <widget class="QComboBox" name="comboBox_m_sys_select_failure_rate_type">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>200</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_sys_select_place_failure_rate">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>20</y>
+          <width>440</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Sensor</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <widget class="QComboBox" name="comboBox_m_select_place_failure_rate">
+         <property name="geometry">
+          <rect>
+           <x>160</x>
+           <y>30</y>
+           <width>200</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_39">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Where is the sensor? </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_reliability">
+       <attribute name="title">
+        <string>Reliability Analysis</string>
+       </attribute>
+       <widget class="QWidget" name="widget_monitoring_reliability" native="true">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>360</y>
+          <width>800</width>
+          <height>425</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_sys_reliability">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>300</y>
+          <width>200</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>System Reliability - R</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <widget class="QLineEdit" name="lineEdit_m_sys_reliability">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>200</width>
+           <height>27</height>
+          </rect>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_sys_select_reliability_type">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>300</y>
+          <width>200</width>
+          <height>70</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Select Reliability</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <widget class="QComboBox" name="comboBox_m_sys_select_reliability_type">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>200</width>
+           <height>27</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>30</y>
+          <width>470</width>
+          <height>200</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Module Reliability</string>
+        </property>
+        <widget class="QGroupBox" name="groupBox_select_reliability_module">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>30</y>
+           <width>200</width>
+           <height>60</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Select Module</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+         <property name="checkable">
+          <bool>false</bool>
+         </property>
+         <widget class="QComboBox" name="comboBox_m_reliability_module">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>200</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="currentText">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_module_reliability">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>120</y>
+           <width>200</width>
+           <height>70</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Module Reliability - R</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <widget class="QLineEdit" name="lineEdit_m_module_reliability">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>200</width>
+            <height>27</height>
+           </rect>
+          </property>
+          <property name="readOnly">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_sys_select_module_reliability_type">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>30</y>
+           <width>230</width>
+           <height>70</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Select Module Reliability Type</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <widget class="QComboBox" name="comboBox_m_sys_select_module_reliability_type">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>30</y>
+            <width>200</width>
+            <height>27</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_potc">
+       <attribute name="title">
+        <string>Task Completion Analysis</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1101</width>
+          <height>900</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab_6">
+         <attribute name="title">
+          <string>Real Time Analysis</string>
+         </attribute>
+         <widget class="QWidget" name="widget_monitoring_potc" native="true">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>310</y>
+            <width>800</width>
+            <height>425</height>
+           </rect>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_m_potc_actual_group">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>30</y>
+            <width>500</width>
+            <height>275</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Actual Analysis</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <widget class="QGroupBox" name="groupBox_sys_potc_reliability">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>190</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Nominal PoTC</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_sys_potc_reliability">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_sys_potc_sb_reliability">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>190</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Sensor Based PoTC</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_sys_potc_sb_reliability">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_m_potc_actual_time">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>50</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Actual Time</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_potc_actual_time">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_m_potc_actual_distance">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>50</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Actual Distance</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_potc_actual_distance">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="Line" name="line_6">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>500</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_m_potc_predict_group">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>30</y>
+            <width>450</width>
+            <height>275</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Predict Analysis</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+          <widget class="QGroupBox" name="groupBox_sys_potc_predict_reliability">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>190</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Nominal PoTC</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_sys_potc_predict_reliability">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_sys_potc_predict_sb_reliability">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>190</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Sensor Based PoTC</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_sys_potc_predict_sb_reliability">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_m_potc_predict_time">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>50</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Predicted Time</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_potc_predict_time">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_m_potc_predict_distance">
+           <property name="geometry">
+            <rect>
+             <x>250</x>
+             <y>50</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Predicted Distance</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_potc_predict_distance">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="Line" name="line_7">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>130</y>
+             <width>450</width>
+             <height>30</height>
+            </rect>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>3</number>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+          </widget>
+         </widget>
+         <widget class="Line" name="line_8">
+          <property name="geometry">
+           <rect>
+            <x>540</x>
+            <y>70</y>
+            <width>30</width>
+            <height>210</height>
+           </rect>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>3</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_7">
+         <attribute name="title">
+          <string>Prognostic Analysis</string>
+         </attribute>
+         <widget class="QGroupBox" name="groupBox_potc_predict">
+          <property name="geometry">
+           <rect>
+            <x>60</x>
+            <y>30</y>
+            <width>800</width>
+            <height>600</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Predict PoTC</string>
+          </property>
+          <widget class="QGroupBox" name="groupBox_m_prognostic_potc_failure_rate">
+           <property name="geometry">
+            <rect>
+             <x>510</x>
+             <y>260</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Predicted PoTC</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_prognostic_potc">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_m_prognostic_potc_simulation_time">
+           <property name="geometry">
+            <rect>
+             <x>220</x>
+             <y>260</y>
+             <width>200</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Simulation Time</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+           <widget class="QLineEdit" name="lineEdit_m_prognostic_potc_simulation_time">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>30</y>
+              <width>200</width>
+              <height>27</height>
+             </rect>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox_general">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>800</width>
+             <height>231</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string/>
+           </property>
+           <widget class="QGroupBox" name="groupBox_m_prognostic_potc_select_task">
+            <property name="geometry">
+             <rect>
+              <x>220</x>
+              <y>60</y>
+              <width>200</width>
+              <height>60</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>Select Task</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <widget class="QComboBox" name="comboBox_m_prognostic_potc_select_task">
+             <property name="geometry">
+              <rect>
+               <x>5</x>
+               <y>25</y>
+               <width>190</width>
+               <height>27</height>
+              </rect>
+             </property>
+             <property name="currentText">
+              <string/>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="pushButton_m_prognostic_potc_start_simulation">
+            <property name="geometry">
+             <rect>
+              <x>380</x>
+              <y>170</y>
+              <width>150</width>
+              <height>50</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Predict Simulation</string>
+            </property>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_m_prognostic_potc_simulation_count">
+            <property name="geometry">
+             <rect>
+              <x>510</x>
+              <y>60</y>
+              <width>200</width>
+              <height>60</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>Simulation Count</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+            <widget class="QLineEdit" name="lineEdit_m_prognostic_potc_simulation_count">
+             <property name="geometry">
+              <rect>
+               <x>5</x>
+               <y>25</y>
+               <width>190</width>
+               <height>27</height>
+              </rect>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -43,7 +43,7 @@ env:
 # Install system dependencies, namely a very barebones ROS setup.
 before_install:
   - sudo sh -c "echo \"deb http://packages.ros.org/ros/ubuntu $ROS_CI_DESKTOP main\" > /etc/apt/sources.list.d/ros-latest.list"
-  - sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+  - sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
   - sudo apt-get update -qq
   - sudo apt-get install dpkg
   - sudo apt-get install -y python-catkin-pkg python-rosdep python-wstool ros-$ROS_DISTRO-ros-base
@@ -53,7 +53,8 @@ before_install:
   - sudo rosdep init
   - rosdep update
   - pip install --user pydot
-  - sudo apt-get install python3-pyqt5 
+  - sudo apt-get install python3-pyqt5
+  - sudo apt-get install python3-matplotlib
 
 # Create a catkin workspace with the package under integration.
 install:
@@ -63,13 +64,13 @@ install:
   # Create the devel/setup.bash (run catkin_make with an empty workspace) and
   # source it to set the path variables.
   - cd ~/catkin_ws
-  - catkin_make_isolated --install
-  - source devel_isolated/setup.bash
+  - catkin_make install
+  - source devel/setup.bash
 
 script:
   - source /opt/ros/$ROS_DISTRO/setup.bash
   - cd ~/catkin_ws
-  - catkin_make_isolated $( [ -f $CATKIN_OPTIONS ] && cat $CATKIN_OPTIONS )
+  - catkin_make $( [ -f $CATKIN_OPTIONS ] && cat $CATKIN_OPTIONS )
   # Run the tests, ensuring the path is set correctly.
-  - source devel_isolated/setup.bash
-  - catkin_make_isolated --catkin-make-args run_tests
+  - source devel/setup.bash
+  - catkin_make run_tests

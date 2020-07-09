@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="phm_robot_task_completion_node" pkg="phm_robot_task_completion" type="phm_robot_task_completion_node.py" output="screen" />
+
+</launch>

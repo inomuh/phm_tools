@@ -1,0 +1,80 @@
+---
+Resistor Style:
+  RC:
+    {"Temperature Factor": 1,
+    "Power Stress Factor": 2}
+  RCR:
+    {"Temperature Factor": 1,
+    "Power Stress Factor": 2}
+  RL:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RLR:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RN:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RM:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RD:
+    {"Temperature Factor": "val_1",
+    "Power Stress Factor": 1}
+  RZ:
+    {"Temperature Factor": 1,
+    "Power Stress Factor": "val_1"}
+  RB:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RB R:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RW:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 2}
+  RWR:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 2}
+  RE:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 2}
+  RE R:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 2}
+  RTH:
+    {"Temperature Factor": "val_1",
+    "Power Stress Factor": "val_1"}
+  RT:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RTR:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RR:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RA:
+    {"Temperature Factor": 1,
+    "Power Stress Factor": 1}
+  RK:
+    {"Temperature Factor": 1,
+    "Power Stress Factor": 1}
+  RP:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RJ:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RJ R:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RV:
+    {"Temperature Factor": 2,
+    "Power Stress Factor": 1}
+  RQ:
+    {"Temperature Factor": 1,
+    "Power Stress Factor": 1}
+  RV C:
+    {"Temperature Factor": 1,
+    "Power Stress Factor": 1}

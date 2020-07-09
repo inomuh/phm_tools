@@ -1,6 +1,0 @@
-<launch>    
-
-  <include file="$(find phm_reliability)/launch/start_reliability.launch"/>
-  <include file="$(find phm_task_plan)/launch/start_task_plan.launch"/>
-
-</launch>

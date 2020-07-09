@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="phm_reliability_estimation_node" pkg="phm_reliability_calculation" type="phm_reliability_estimation_node.py" output="screen" />
+
+</launch>

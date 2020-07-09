@@ -1,0 +1,56 @@
+---
+Diode Type:
+    General Purpose Analog:
+      {"Temperature Factor": 1,
+      "Electrical Stress Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    Switching:
+      {"Temperature Factor": 1,
+      "Electrical Stress Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    Fast Recovery Power Rectifier:
+      {"Temperature Factor": 1,
+      "Electrical Stress Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    Power Rectifier:
+      {"Temperature Factor": 1,
+      "Electrical Stress Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    Power Rectifier With High Voltage Stacks:
+      {"Temperature Factor": 1,
+      "Electrical Stress Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    Transient Suppressor:
+      {"Temperature Factor": 1,
+        "Electrical Stress Factor": 2,
+        "Voltage Stress": 1, 
+        "Circuit Resistance": 1}
+    
+    Current Regulator:
+      {"Temperature Factor": 2,
+        "Electrical Stress Factor": 2,
+        "Voltage Stress": 1, 
+        "Circuit Resistance": 1}
+    
+    Voltage Regulator:
+      {"Temperature Factor": 2,
+        "Electrical Stress Factor": 2,
+        "Voltage Stress": 1, 
+        "Circuit Resistance": 1}
+    
+    Voltage Reference:
+      {"Temperature Factor": 2,
+      "Electrical Stress Factor": 2,
+      "Voltage Stress": 2, 
+      "Circuit Resistance": 1}
+    

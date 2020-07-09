@@ -1,0 +1,154 @@
+System:
+  Configurations:
+    Configuration Count:
+      Parallel: 0
+      Serial: 1
+    Depth Level: 0
+    s1:
+      Components:
+      - m1
+      - m2
+      Depth Level: 0
+      Failure Rate:
+        Nominal: 5.561000477231333e-06
+        Sensor Based: 0.0003268355036922193
+      Type: Serial
+  Failure Rate:
+    Nominal: 5.561000477231333e-06
+    Sensor Based: 0.0003268355036922193
+  Final Configuration: s1
+  Reliability:
+    Nominal: 0.9999976211304031
+    Sensor Based: 0.9998601968079088
+  m1:
+    Configurations:
+      Configuration Count:
+        Parallel: 2
+        Serial: 3
+      Depth Level: 2
+      p2:
+        Components:
+        - sm3
+        - sm4
+        Depth Level: 0
+        Failure Rate: 4.2732191438979994e-06
+        Type: Parallel
+      s1:
+        Components:
+        - sm1
+        - sm2
+        Depth Level: 0
+        Failure Rate: 1.0477813333333332e-06
+        Type: Serial
+      s2:
+        Components:
+        - s1
+        Depth Level: 1
+        Failure Rate: 1.0477813333333332e-06
+        Type: Serial
+      s3:
+        Components:
+        - s2
+        - p2
+        Depth Level: 2
+        Failure Rate: 5.321000477231333e-06
+        Type: Serial
+    Failure Rate:
+      Nominal: 5.321000477231333e-06
+      Sensor Based: 3.4575963109150584e-05
+    Final Configuration: s3
+    Reliability:
+      Nominal: 0.9999977237968308
+      Sensor Based: 0.9999852092807204
+    sm1:
+      Configurations:
+        Configuration Count:
+          Parallel: 1
+          Serial: 2
+        Depth Level: 1
+        p1:
+          Components:
+          - s1
+          - s2
+          Depth Level: 1
+          Failure Rate: 1.0147813333333332e-06
+          Type: Parallel
+        s1:
+          Components:
+          - c1
+          - c2
+          Depth Level: 0
+          Failure Rate: 1.22172e-07
+          Type: Serial
+        s2:
+          Components:
+          - c3
+          - c4
+          Depth Level: 0
+          Failure Rate: 1.4e-06
+          Type: Serial
+      Failure Rate: 1.0147813333333332e-06
+      Final Configuration: p1
+      Reliability: 0.9999995658991905
+      c1:
+        Elements: {}
+        Failure Rate: 2.172e-09
+        Final Configuration: ''
+        Formula: ''
+      c2:
+        Elements: {}
+        Failure Rate: 1.2e-07
+        Final Configuration: ''
+        Formula: ''
+      c3:
+        Elements: {}
+        Failure Rate: 1.5e-07
+        Final Configuration: ''
+        Formula: ''
+      c4:
+        Elements:
+          ce1:
+            Name: Test1
+            Value: 5.0e-07
+          ce2:
+            Name: Test2
+            Value: 7.5e-07
+        Failure Rate: 1.2499999999999999e-06
+        Final Configuration: ''
+        Formula: ce1 + ce2
+    sm2:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 3.3e-08
+      Final Configuration: ''
+      Reliability: 0.9999999858833334
+    sm3:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 4.08827715847e-07
+      Final Configuration: ''
+      Reliability: 0.9999998251126035
+    sm4:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 6.001001e-06
+      Final Configuration: ''
+      Reliability: 0.9999974329084228
+  m2:
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 0
+    Failure Rate:
+      Nominal: 2.4e-07
+      Sensor Based: 0.0002922595405830687
+    Final Configuration: ''
+    Reliability:
+      Nominal: 0.9999998973333386
+      Sensor Based: 0.9998749856781367

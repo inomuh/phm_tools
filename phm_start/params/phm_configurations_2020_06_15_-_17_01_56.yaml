@@ -1,0 +1,372 @@
+System:
+  Communication:
+    Antenna:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 7.5e-07
+      Final Configuration: ''
+      Reliability: 0.0
+    Communicaton Card - DSK-M:
+      16Mhz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 2.45974988149e-08
+        Final Configuration: ''
+        Formula: ''
+      25MHz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 2.7e-07
+        Final Configuration: ''
+        Formula: ''
+      Capacitor:
+        Elements: {}
+        Failure Rate: 1.493442522e-06
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 0.0
+      Final Configuration: ''
+      Fuse:
+        Elements: {}
+        Failure Rate: 3.2e-07
+        Final Configuration: ''
+        Formula: ''
+      LAN8720A-CP:
+        Elements: {}
+        Failure Rate: 5.9e-07
+        Final Configuration: ''
+        Formula: ''
+      Micro USB Connector:
+        Elements: {}
+        Failure Rate: 2.4288e-06
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resistor:
+        Elements: {}
+        Failure Rate: 4.0777344e-06
+        Final Configuration: ''
+        Formula: ''
+      SN65HVD230DR:
+        Elements: {}
+        Failure Rate: 1.7e-07
+        Final Configuration: ''
+        Formula: ''
+      STM32F407VGT6:
+        Elements: {}
+        Failure Rate: 2.3e-07
+        Final Configuration: ''
+        Formula: ''
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 0
+    Failure Rate:
+      Nominal: 0.0
+    Final Configuration: ''
+    Reliability:
+      Nominal: 0.0
+  Computation:
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 0
+    Failure Rate:
+      Nominal: 0.0
+    Final Configuration: ''
+    Reliability:
+      Nominal: 0.0
+    YSK-G - Vision Control Unit:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 0.0
+      Final Configuration: ''
+      NVIDIA JETSON TX2:
+        Elements: {}
+        Failure Rate: 5.0e-08
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+    YSK-M - High Level Control Unit:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 0.0
+      Final Configuration: ''
+      Inno-Box Industrial Box PC:
+        Elements: {}
+        Failure Rate: 6.5e-08
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+  Configurations:
+    Configuration Count:
+      Parallel: 0
+      Serial: 0
+  Failure Rate:
+    Nominal: 0.0
+    Sensor Based: 0.0
+  Final Configuration: ''
+  Mobility:
+    Bearing:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 1.44504e-10
+      Final Configuration: ''
+      Reliability: 0.0
+    Caster Wheel:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 2.72e-05
+      Final Configuration: ''
+      Reliability: 0.0
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 0
+    DC Motor:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 8.041003e-06
+      Final Configuration: ''
+      Reliability: 0.0
+    Driver Wheel:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 3.6e-07
+      Final Configuration: ''
+      Reliability: 0.0
+    Encoder:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 1.16e-05
+      Final Configuration: ''
+      Reliability: 0.0
+    Failure Rate:
+      Nominal: 0.0
+    Final Configuration: ''
+    Reliability:
+      Nominal: 0.0
+  Power:
+    Battery:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 8.0e-08
+      Final Configuration: ''
+      Reliability: 0.0
+    Battery Control Board:
+      Capacitor:
+        Elements: {}
+        Failure Rate: 0.0002620970352
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Connector/Socket:
+        Elements: {}
+        Failure Rate: 1.1781e-07
+        Final Configuration: ''
+        Formula: ''
+      Current Sensor:
+        Elements: {}
+        Failure Rate: 5.0e-07
+        Final Configuration: ''
+        Formula: ''
+      Diode:
+        Elements: {}
+        Failure Rate: 1.00060260699e-05
+        Final Configuration: ''
+        Formula: ''
+      Failure Rate: 0.0
+      Female Header:
+        Elements: {}
+        Failure Rate: 1.9e-06
+        Final Configuration: ''
+        Formula: ''
+      Final Configuration: ''
+      Inductor:
+        Elements: {}
+        Failure Rate: 4.0565e-07
+        Final Configuration: ''
+        Formula: ''
+      LED:
+        Elements: {}
+        Failure Rate: 4.5e-05
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resistor:
+        Elements: {}
+        Failure Rate: 3.4476e-06
+        Final Configuration: ''
+        Formula: ''
+      Step Down Switching Regulator:
+        Elements: {}
+        Failure Rate: 2.772e-06
+        Final Configuration: ''
+        Formula: ''
+      Terminal Blocks/Connector:
+        Elements: {}
+        Failure Rate: 1.9872e-05
+        Final Configuration: ''
+        Formula: ''
+      Thermistor:
+        Elements: {}
+        Failure Rate: 6.597e-05
+        Final Configuration: ''
+        Formula: ''
+      Trimpot:
+        Elements: {}
+        Failure Rate: 7.26e-06
+        Final Configuration: ''
+        Formula: ''
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 0
+    Failure Rate:
+      Nominal: 0.0
+    Final Configuration: ''
+    Low Level Control Unit - DSK-MD:
+      16MHz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 7.37924964446e-08
+        Final Configuration: ''
+        Formula: ''
+      32.768Khz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 1.77671632204e-08
+        Final Configuration: ''
+        Formula: ''
+      Aluminum Capacitor:
+        Elements: {}
+        Failure Rate: 5.58404e-07
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 0.0
+      Final Configuration: ''
+      Micro USB Connector:
+        Elements: {}
+        Failure Rate: 6.072e-07
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resettable Fuse:
+        Elements: {}
+        Failure Rate: 4.6e-06
+        Final Configuration: ''
+        Formula: ''
+      Resistors:
+        Elements: {}
+        Failure Rate: 3.2438016e-05
+        Final Configuration: ''
+        Formula: ''
+      STM32F407VGT6:
+        Elements: {}
+        Failure Rate: 1.0e-08
+        Final Configuration: ''
+        Formula: ''
+      Ultrafast Diode:
+        Elements: {}
+        Failure Rate: 2.117664e-06
+        Final Configuration: ''
+        Formula: ''
+      XT60 Socket:
+        Elements: {}
+        Failure Rate: 3.01056e-07
+        Final Configuration: ''
+        Formula: ''
+      Zener Diode:
+        Elements: {}
+        Failure Rate: 2.50150651746e-06
+        Final Configuration: ''
+        Formula: ''
+    Reliability:
+      Nominal: 0.0
+  Reliability:
+    Nominal: 0.0
+    Sensor Based: 0.0
+  Sensing:
+    Camera:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 5.88e-09
+      Final Configuration: ''
+      Reliability: 0.0
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 0
+    Failure Rate:
+      Nominal: 0.0
+    Final Configuration: ''
+    IPS:
+      Antenna:
+        Elements: {}
+        Failure Rate: 5.8e-07
+        Final Configuration: ''
+        Formula: ''
+      Capacitors:
+        Elements: {}
+        Failure Rate: 4.6803042e-06
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      DW1000 Chip:
+        Elements: {}
+        Failure Rate: 8.6e-08
+        Final Configuration: ''
+        Formula: ''
+      Failure Rate: 0.0
+      Final Configuration: ''
+      Micro USB Connector:
+        Elements: {}
+        Failure Rate: 6.072e-07
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resistors:
+        Elements: {}
+        Failure Rate: 2.22768e-06
+        Final Configuration: ''
+        Formula: ''
+    Reliability:
+      Nominal: 0.0
+    SICK Laser Sensor:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 8.0e-08
+      Final Configuration: ''
+      Reliability: 0.0

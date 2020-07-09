@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find phm_hazard_rate_calculation)/launch/phm_hazard_rate_calculation.launch"/>
+  <include file="$(find phm_reliability_calculation)/launch/phm_reliability_estimation.launch"/>
+  <include file="$(find phm_robot_task_completion)/launch/phm_robot_task_completion.launch"/>
+
+</launch>

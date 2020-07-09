@@ -1,0 +1,497 @@
+System:
+  Communication:
+    Antenna:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 7.5e-07
+      Final Configuration: ''
+      Reliability: 0.0
+    Communicaton Card - DSK-M:
+      16Mhz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 2.45974988149e-08
+        Final Configuration: ''
+        Formula: ''
+      25MHz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 2.7e-07
+        Final Configuration: ''
+        Formula: ''
+      Capacitor:
+        Elements: {}
+        Failure Rate: 1.493442522e-06
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 1
+        Depth Level: 1
+        s1:
+          Components:
+          - 25MHz Cryst. Osc.
+          - 16Mhz Cryst. Osc.
+          - 25MHz Cryst. Osc.
+          - Capacitor
+          - Fuse
+          - LAN8720A-CP
+          - Micro USB Connector
+          - Resistor
+          - SN65HVD230DR
+          - STM32F407VGT6
+          Depth Level: 1
+          Failure Rate: 9.8745744208149e-06
+          Type: Serial
+      Failure Rate: 9.8745744208149e-06
+      Final Configuration: s1
+      Fuse:
+        Elements: {}
+        Failure Rate: 3.2e-07
+        Final Configuration: ''
+        Formula: ''
+      LAN8720A-CP:
+        Elements: {}
+        Failure Rate: 5.9e-07
+        Final Configuration: ''
+        Formula: ''
+      Micro USB Connector:
+        Elements: {}
+        Failure Rate: 2.4288e-06
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resistor:
+        Elements: {}
+        Failure Rate: 4.0777344e-06
+        Final Configuration: ''
+        Formula: ''
+      SN65HVD230DR:
+        Elements: {}
+        Failure Rate: 1.7e-07
+        Final Configuration: ''
+        Formula: ''
+      STM32F407VGT6:
+        Elements: {}
+        Failure Rate: 2.3e-07
+        Final Configuration: ''
+        Formula: ''
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 1
+      Depth Level: 0
+      s1:
+        Components:
+        - Communicaton Card - DSK-M
+        - Antenna
+        Depth Level: 0
+        Failure Rate: 1.06245744208149e-05
+        Type: Serial
+    Failure Rate:
+      Nominal: 1.06245744208149e-05
+    Final Configuration: s1
+    Reliability:
+      Nominal: 0.0
+  Computation:
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 1
+      Depth Level: 0
+      s1:
+        Components:
+        - YSK-G - Vision Control Unit
+        - YSK-M - High Level Control Unit
+        Depth Level: 0
+        Failure Rate: 1.15e-07
+        Type: Serial
+    Failure Rate:
+      Nominal: 1.15e-07
+    Final Configuration: s1
+    Reliability:
+      Nominal: 0.0
+    YSK-G - Vision Control Unit:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 5.0e-08
+      Final Configuration: NVIDIA JETSON TX2
+      NVIDIA JETSON TX2:
+        Elements: {}
+        Failure Rate: 5.0e-08
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+    YSK-M - High Level Control Unit:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 6.5e-08
+      Final Configuration: Inno-Box Industrial Box PC
+      Inno-Box Industrial Box PC:
+        Elements: {}
+        Failure Rate: 6.5e-08
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+  Configurations:
+    Configuration Count:
+      Parallel: 0
+      Serial: 1
+    Depth Level: 1
+    s1:
+      Components:
+      - Communication
+      - Computation
+      - Mobility
+      - Power
+      - Sensing
+      Depth Level: 1
+      Failure Rate:
+        Nominal: 0.0005288326869051733
+        Sensor Based: 0.0005288326869051733
+      Type: Serial
+  Failure Rate:
+    Nominal: 0.0005288326869051733
+    Sensor Based: 0.0
+  Final Configuration: s1
+  Mobility:
+    Bearing:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 1.44504e-10
+      Final Configuration: ''
+      Reliability: 0.0
+    Caster Wheel:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 2.72e-05
+      Final Configuration: ''
+      Reliability: 0.0
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 1
+      Depth Level: 1
+      s1:
+        Components:
+        - Bearing
+        - Encoder
+        - Caster Wheel
+        - DC Motor
+        - Driver Wheel
+        Depth Level: 1
+        Failure Rate: 4.7201147504000006e-05
+        Type: Serial
+    DC Motor:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 8.041003e-06
+      Final Configuration: ''
+      Reliability: 0.0
+    Driver Wheel:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 3.6e-07
+      Final Configuration: ''
+      Reliability: 0.0
+    Encoder:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 1.16e-05
+      Final Configuration: ''
+      Reliability: 0.0
+    Failure Rate:
+      Nominal: 4.7201147504000006e-05
+    Final Configuration: s1
+    Reliability:
+      Nominal: 0.0
+  Power:
+    Battery:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 8.0e-08
+      Final Configuration: ''
+      Reliability: 0.0
+    Battery Control Board:
+      Capacitor:
+        Elements: {}
+        Failure Rate: 0.0002620970352
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 1
+        Depth Level: 1
+        s1:
+          Components:
+          - Capacitor
+          - Connector/Socket
+          - Current Sensor
+          - Diode
+          - Female Header
+          - Inductor
+          - LED
+          - Resistor
+          - Step Down Switching Regulator
+          - Terminal Blocks/Connector
+          - Thermistor
+          - Trimpot
+          Depth Level: 1
+          Failure Rate: 0.0004193481212699
+          Type: Serial
+      Connector/Socket:
+        Elements: {}
+        Failure Rate: 1.1781e-07
+        Final Configuration: ''
+        Formula: ''
+      Current Sensor:
+        Elements: {}
+        Failure Rate: 5.0e-07
+        Final Configuration: ''
+        Formula: ''
+      Diode:
+        Elements: {}
+        Failure Rate: 1.00060260699e-05
+        Final Configuration: ''
+        Formula: ''
+      Failure Rate: 0.0004193481212699
+      Female Header:
+        Elements: {}
+        Failure Rate: 1.9e-06
+        Final Configuration: ''
+        Formula: ''
+      Final Configuration: s1
+      Inductor:
+        Elements: {}
+        Failure Rate: 4.0565e-07
+        Final Configuration: ''
+        Formula: ''
+      LED:
+        Elements: {}
+        Failure Rate: 4.5e-05
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resistor:
+        Elements: {}
+        Failure Rate: 3.4476e-06
+        Final Configuration: ''
+        Formula: ''
+      Step Down Switching Regulator:
+        Elements: {}
+        Failure Rate: 2.772e-06
+        Final Configuration: ''
+        Formula: ''
+      Terminal Blocks/Connector:
+        Elements: {}
+        Failure Rate: 1.9872e-05
+        Final Configuration: ''
+        Formula: ''
+      Thermistor:
+        Elements: {}
+        Failure Rate: 6.597e-05
+        Final Configuration: ''
+        Formula: ''
+      Trimpot:
+        Elements: {}
+        Failure Rate: 7.26e-06
+        Final Configuration: ''
+        Formula: ''
+    Configurations:
+      Configuration Count:
+        Parallel: 0
+        Serial: 1
+      Depth Level: 1
+      s1:
+        Components:
+        - Battery
+        - Battery Control Board
+        - Low Level Control Unit - DSK-MD
+        Depth Level: 1
+        Failure Rate: 0.000462653527447025
+        Type: Serial
+    Failure Rate:
+      Nominal: 0.000462653527447025
+    Final Configuration: s1
+    Low Level Control Unit - DSK-MD:
+      16MHz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 7.37924964446e-08
+        Final Configuration: ''
+        Formula: ''
+      32.768Khz Cryst. Osc.:
+        Elements: {}
+        Failure Rate: 1.77671632204e-08
+        Final Configuration: ''
+        Formula: ''
+      Aluminum Capacitor:
+        Elements: {}
+        Failure Rate: 5.58404e-07
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 1
+        Depth Level: 1
+        s1:
+          Components:
+          - 16MHz Cryst. Osc.
+          - 32.768Khz Cryst. Osc.
+          - Aluminum Capacitor
+          - Micro USB Connector
+          - Resettable Fuse
+          - Resistors
+          - STM32F407VGT6
+          - Ultrafast Diode
+          - XT60 Socket
+          - Zener Diode
+          Depth Level: 1
+          Failure Rate: 4.3225406177125e-05
+          Type: Serial
+      Failure Rate: 4.3225406177125e-05
+      Final Configuration: s1
+      Micro USB Connector:
+        Elements: {}
+        Failure Rate: 6.072e-07
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resettable Fuse:
+        Elements: {}
+        Failure Rate: 4.6e-06
+        Final Configuration: ''
+        Formula: ''
+      Resistors:
+        Elements: {}
+        Failure Rate: 3.2438016e-05
+        Final Configuration: ''
+        Formula: ''
+      STM32F407VGT6:
+        Elements: {}
+        Failure Rate: 1.0e-08
+        Final Configuration: ''
+        Formula: ''
+      Ultrafast Diode:
+        Elements: {}
+        Failure Rate: 2.117664e-06
+        Final Configuration: ''
+        Formula: ''
+      XT60 Socket:
+        Elements: {}
+        Failure Rate: 3.01056e-07
+        Final Configuration: ''
+        Formula: ''
+      Zener Diode:
+        Elements: {}
+        Failure Rate: 2.50150651746e-06
+        Final Configuration: ''
+        Formula: ''
+    Reliability:
+      Nominal: 0.0
+  Reliability:
+    Nominal: 0.0
+    Sensor Based: 0.0
+  Sensing:
+    Camera:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 5.88e-09
+      Final Configuration: ''
+      Reliability: 0.0
+    Configurations:
+      Configuration Count:
+        Parallel: 1
+        Serial: 2
+      Depth Level: 1
+      p1:
+        Components:
+        - Camera
+        - SICK Laser Sensor
+        Depth Level: 0
+        Failure Rate: 5.725333333333333e-08
+        Type: Parallel
+      s2:
+        Components:
+        - p1
+        - IPS
+        Depth Level: 1
+        Failure Rate: 8.238437533333333e-06
+        Type: Serial
+    Failure Rate:
+      Nominal: 8.238437533333333e-06
+    Final Configuration: s2
+    IPS:
+      Antenna:
+        Elements: {}
+        Failure Rate: 5.8e-07
+        Final Configuration: ''
+        Formula: ''
+      Capacitors:
+        Elements: {}
+        Failure Rate: 4.6803042e-06
+        Final Configuration: ''
+        Formula: ''
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 1
+        Depth Level: 1
+        s1:
+          Components:
+          - Antenna
+          - Capacitors
+          - DW1000 Chip
+          - Micro USB Connector
+          - Resistors
+          Depth Level: 1
+          Failure Rate: 8.1811842e-06
+          Type: Serial
+      DW1000 Chip:
+        Elements: {}
+        Failure Rate: 8.6e-08
+        Final Configuration: ''
+        Formula: ''
+      Failure Rate: 8.1811842e-06
+      Final Configuration: s1
+      Micro USB Connector:
+        Elements: {}
+        Failure Rate: 6.072e-07
+        Final Configuration: ''
+        Formula: ''
+      Reliability: 0.0
+      Resistors:
+        Elements: {}
+        Failure Rate: 2.22768e-06
+        Final Configuration: ''
+        Formula: ''
+    Reliability:
+      Nominal: 0.0
+    SICK Laser Sensor:
+      Configurations:
+        Configuration Count:
+          Parallel: 0
+          Serial: 0
+      Failure Rate: 8.0e-08
+      Final Configuration: ''
+      Reliability: 0.0

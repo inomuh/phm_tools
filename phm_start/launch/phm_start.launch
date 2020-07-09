@@ -1,0 +1,13 @@
+<launch>
+
+  <node name="phm_gui" pkg="phm_start" type="phm_gui.py" output="screen">
+      <rosparam file="$(find phm_hazard_rate_calculation)/params/capacitor_style.yaml" command="load"/>
+      <rosparam file="$(find phm_hazard_rate_calculation)/params/diode_type.yaml" command="load"/>
+      <rosparam file="$(find phm_hazard_rate_calculation)/params/resistor_style.yaml" command="load"/>
+      <rosparam file="$(find phm_hazard_rate_calculation)/params/electrical_equipment_parameters.yaml" command="load"/>
+      <rosparam file="$(find phm_hazard_rate_calculation)/params/mechanical_equipment_parameters.yaml" command="load"/>
+  </node>
+
+  <include file="$(find phm_start)/launch/start_nodes.launch"/>
+
+</launch>

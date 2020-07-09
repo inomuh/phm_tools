@@ -1,0 +1,261 @@
+---
+Mechanical Equipment:
+  Springs:
+    Material c_g:
+      Ferrous material:
+        Music Wire: 1.08
+        Hard Drawn Steel: 1.00
+        Chrome Steel: 0.92
+        Silicon-Manganese: 0.83
+        Stainless 302, 304, 316: 0.67
+        Stainless 17-7 PH: 0.76
+        Stainless 420: 0.88
+        Stainless 431: 0.97
+      Non-Ferrous material:
+        Spring Brass: 0.08
+        Phosphor: 0.14
+        Bronze: 0.23
+        Beryllium: 0.76
+        Copper: 0.56
+        Inconel: 1.0  # bilinmiyor
+        Monel: 1.0    # bilinmiyor
+    Material c_y:
+      Brass: 5.15
+      Phosphor Bronze: 3.51
+      Monel 400: 2.25
+      Inconel 600: 1.74
+      Monel K500: 1.28
+      Copper: 1.00
+      Beryllium: 1.00
+      17-7 PH: 0.74
+      RH 950: 0.74
+      Hard Drawn Steel: 0.68
+      Stainless Steel 302, 18-8: 0.59
+      Spring Temper Steel: 0.47
+      Chrome Silicon: 0.36
+      Music Wire: 0.27
+
+  Bearings:
+    Bearing Service Factors:
+      Uniform and steady load free fromshock:
+        Ball bearing: 1.0
+        Roller bearing: 1.0
+      Normal operation light shock load:
+        Ball bearing: 1.5
+        Roller bearing: 1.0
+      Moderate shock load:
+        Ball bearing: 2.0
+        Roller bearing: 1.3
+      Heavy shock load:
+        Ball bearing: 2.5
+        Roller bearing: 1.7
+      Extreme and indeterminate shock load:
+        Ball bearing: 3.0
+        Roller bearing: 2.0
+      Precision gearing:
+        Ball bearing: 1.2
+      Commercial gearing:
+        Ball bearing: 1.3
+      Toothed belts:
+        Roller bearing: 1.2
+      Vee belts:
+        Roller bearing: 1.8
+      Flat belts:
+        Roller bearing: 3.0
+    Bearing Contamination Level:
+      Extreme cleanliness particle sizeapprox lubricant film thickness:
+        s_bearing_diameter_100_mm: 1.0
+        g_bearing_diameter_100_mm: 1.0
+      High cleanliness oil filtered throughfine filter smaller than 10 micron:
+        s_bearing_diameter_100_mm: 1.4
+        g_bearing_diameter_100_mm: 1.2
+      Normal cleanliness slightcontamination in lubricant:
+        s_bearing_diameter_100_mm: 1.8
+        g_bearing_diameter_100_mm: 1.4
+      Slight contamination slightcontamination in lubricant hardparticles greater than 10 micron:
+        s_bearing_diameter_100_mm: 2.5
+        g_bearing_diameter_100_mm: 2.0
+      Severe contamination course filtering no integral seals:
+        s_bearing_diameter_100_mm: 5.0
+        g_bearing_diameter_100_mm: 3.3
+
+  Gears:
+    Prime Mover:
+      Uniform:
+        Uniform: 1.00
+        Medium Shock: 1.25
+        Heavy Shock: 1.75
+      Medium Shock:
+        Uniform: 1.25
+        Medium Shock: 1.50
+        Heavy Shock: 2.00
+      Heavy Shock:
+        Uniform: 1.50
+        Medium Shock: 1.75
+        Heavy Shock: 2.25
+    
+  Actuators:
+    Yield strengths:
+      Ordinary structural steel: 30         # - 40
+      Low alloy, high strength steel: 40    # - 80
+      Heat treated steel casting: 40        # - 120
+      Cold rolled steel: 70                 # - 85
+      Stainless steel: 50                   # - 80
+      Heat treated wrought aluminum: 10     # - 50
+      Aluminum alloy: 35                    # - 42
+      Pure rolled aluminum: 5               # - 21
+      Cast aluminum: 15                     # - 25
+      Wrought iron: 25                      # - 35
+      Cast iron: 8                          # - 40
+      Magnesium alloy: 11                   # - 30
+    Material hardness:
+      Plain carbon steels:
+        Low strength steel:  140
+        High strength steel: 220
+      Low-alloy Steels:
+        n4320: 640
+        n4340: 560
+      Stainless Steels:
+        No 303: 170
+        No 304: 160
+        631 (17-7 PH hardened): 520
+        631 (17-7 PH annealed): 170
+        Austenitic AISI 201 annealed): 210
+        Martensitic 440C (hardened): 635
+        630 (17-4 PH hardened) 170: 470
+      Nickel Alloys:
+        No 201: 100
+      Nickel_copper Alloys:
+        Monel (annealed): 120
+        Monel K_500 (annealed): 162
+      Ni Cr Mo Fe Alloys:
+        Inconnel 625: 140
+        Hastelloy: 200
+      Aluminum:
+        AISI 1100 (annealed): 25
+        AISI 1100 (cold worked): 45
+        AISI 2024 (annealed): 50
+        AISI 2024 T4 (heat treated): 125
+        AISI 6061 (annealed): 32
+        AISI 6061 T6 (heat treated): 100
+
+  Electric Motors:
+    Type of Motor:
+      DC: 2.17
+      DC Brushless: 1.75
+      AC Single Phase: 6.90
+      AC Polyphase: 10.00
+    Load Type:
+      Uniform Load: 1.00
+      Light Impact: 1.50
+      Medium Impact: 2.00
+      Heavy Impact: 3.00
+    Insulation Class:
+      A:
+        Temperature rating: 105
+        Assumed ambient temperature: 40
+        Allowable temperature rise: 60
+        Hot spot allowance: 5
+      B:
+        Temperature rating: 130
+        Assumed ambient temperature: 40
+        Allowable temperature rise: 85
+        Hot spot allowance: 5
+      F:
+        Temperature rating: 155
+        Assumed ambient temperature: 40
+        Allowable temperature rise: 110
+        Hot spot allowance: 5
+      H:
+        Temperature rating: 180
+        Assumed ambient temperature: 40
+        Allowable temperature rise: 135
+        Hot spot allowance: 5
+  
+  Mechanical Couplings:
+    Driven Machinery:
+      Uniform:
+        Normal Torque Characteristic: 1.1
+        High or Non-uniform Torque: 1.2
+      Light shock:
+        Normal Torque Characteristic: 1.2
+        High or Non-uniform Torque: 1.3
+      Medium shock:
+        Normal Torque Characteristic: 1.3
+        High or Non-uniform Torque: 1.4
+      Heavy shock:
+        Normal Torque Characteristic: 1.4
+        High or Non-uniform Torque: 1.5
+
+  Shafts:
+    Average values of endurance limits:   # SED
+      Material:
+        Steel_sig_t_ult_s_200_kpsi: 0.50
+        Steel_t_ult_g_200_kpsi: 100
+        Magnesium: 0.35
+        Nonferrous Alloy: 0.35
+        Wrought Aluminum Alloy: 0.40
+        Cast Aluminum Alloy: 0.30
+    
+    Shaft surface finish factor:    # c_f
+      Polished: 1.0
+      Ground: 0.89
+      Hot Rolled: 0.0
+      Machined or Cold Drawn: 0.0
+      Forged: 0.0
+    
+    Shaft material strength:  # E
+      Alloy Steel: 30
+      Stainless Steel: 29
+      High Carbonsteel: 30
+      Cast Steel Carbon: 30
+      Low Alloy Caststeel: 30
+      Cast Aluminum: 10.3
+      Wrought Aluminum: 10.45  # between 10.3 and 10.6
+    
+    Allowable shaft bending:    # b --> default = 0.007
+      Actuator: 0.007
+      Compressor: 0.025
+      Motor: 0.010
+      Pump: 0.007
+    
+    Stress concentration factor:  # csc_g
+      h_D_0_05:
+         h_r_0_1: 1.10
+         h_r_0_5: 1.45
+         h_r_1_0: 1.60
+         h_r_2_0: 2.00
+         h_r_4_0: 2.05
+      h_D_0_10:
+         h_r_0_1: 1.00
+         h_r_0_5: 1.27
+         h_r_1_0: 1.40
+         h_r_2_0: 1.70
+         h_r_4_0: 2.00
+         h_r_6_0: 2.25
+      h_D_0_20:
+         h_r_0_1: 1.00
+         h_r_0_5: 1.10
+         h_r_1_0: 1.20
+         h_r_2_0: 1.31
+         h_r_4_0: 1.60
+         h_r_6_0: 1.75
+         h_r_8_0: 2.00
+      h_D_0_30:
+         h_r_0_1: 1.00
+         h_r_0_5: 1.10
+         h_r_1_0: 1.10
+         h_r_2_0: 1.20
+         h_r_4_0: 1.35
+         h_r_6_0: 1.48
+         h_r_8_0: 1.55
+
+  Battery:
+    Device type:
+      Primary cells: 20
+      Secondary cells:
+        Ni-Cd: 100
+        Li-Ion: 150
+
+
+

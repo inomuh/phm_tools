@@ -1,0 +1,5 @@
+<launch>
+
+  <node name="phm_hazard_rate_calculation_node" pkg="phm_hazard_rate_calculation" type="phm_hazard_rate_calculation_node.py" output="screen" />
+
+</launch>

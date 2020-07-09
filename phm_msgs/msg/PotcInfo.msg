@@ -1,0 +1,4 @@
+float32 potc_nominal_value
+float32 potc_sensor_based_value
+float32 potc_time
+float32 potc_distance

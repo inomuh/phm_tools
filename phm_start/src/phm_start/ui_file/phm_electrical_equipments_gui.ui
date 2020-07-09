@@ -1,0 +1,4924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Electrical Equipments</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget_electrical_equipments">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1100</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_capacitor">
+     <attribute name="title">
+      <string>Capacitor</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_cc_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>640</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Capacitor failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_cc_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>10</y>
+        <width>350</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_cc_quality">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>180</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_cc_capacitance">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>90</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_capacitance_value">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Capacitance value:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_cc_quality">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>180</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_t">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Capacitor Temperature - T:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_circuit_resistance">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>150</y>
+         <width>141</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Circuit resistance:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_cc_environment">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>210</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_cc_circuit_resistance">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>150</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_cc_style">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_environment">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>210</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_cc_voltage_stress">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>120</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_voltage_stress">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>120</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Voltage stress:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_capacitor_style">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Capacitore style:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_cc_capacitor_temperature">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>60</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>10</y>
+        <width>350</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_cc_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_pi_sr">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Series resistance  factor - πSR :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_cc_pi_v">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>120</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_cc_pi_sr">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>150</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_pi_c">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>90</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Capacitance factor - πC :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment  factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>60</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Temperature factor - πT :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_cc_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>210</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_cc_pi_c">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>90</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>30</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_cc_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>180</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_cc_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality  factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cc_pi_v">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>120</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Voltage stress factor - πV :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_capacitor">
+      <property name="geometry">
+       <rect>
+        <x>925</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_cc_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_diode">
+     <attribute name="title">
+      <string>Diode</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_dd_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>640</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Diode failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_dd_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>10</y>
+        <width>391</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_dd_quality">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>150</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_dd_contact_construction">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>120</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_voltage_stress">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Voltage stress:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_dd_environment">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>180</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_diode_type">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Diode Type / Application:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_dd_type">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_contact_construction">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Contact construction:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_quality">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_dd_junction_temperature">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>60</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_junction_temperature">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Junction temperature:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_dd_voltage_stress">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>90</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_environment">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>180</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>30</y>
+        <width>371</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_dd_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>40</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_pi_s">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>70</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Electrical stress factor - πS :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>130</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_dd_pi_c">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>100</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_dd_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>10</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_dd_pi_s">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>70</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_pi_c">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>241</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Contuct construction factor - πC :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>10</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_dd_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>160</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_dd_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>130</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_dd_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>40</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Temperature factor - πT :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_diode">
+      <property name="geometry">
+       <rect>
+        <x>925</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_dd_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_inductor">
+     <attribute name="title">
+      <string>Inductor</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_id_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>640</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Inductor failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_id_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>381</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_id_type">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>0</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_id_environment">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>90</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_environment">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_id_quality">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>60</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_inductor_type">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Inductor type:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_quality">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>60</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_hot_spot_temperature">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Hot spot temperature:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_id_hot_spot_temperature">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>40</y>
+        <width>301</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_id_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>0</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>60</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_id_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>90</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_id_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Temperature factor - πT :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_id_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_id_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_inductor">
+      <property name="geometry">
+       <rect>
+        <x>925</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_id_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_transistor">
+     <attribute name="title">
+      <string>Transistor</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_ts_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>640</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Transistor failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_ts_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_12">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>40</y>
+        <width>361</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_ts_transistor_type">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>0</y>
+         <width>111</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Transistor type:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_ts_environment">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>90</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ts_quality">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>30</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_ts_junction_temperature">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>60</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ts_environment">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>90</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_ts_quality">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_ts_type">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>0</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ts_junction_temperature">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>151</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Junction temperature:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_13">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>40</y>
+        <width>301</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_ts_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>141</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_ts_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_ts_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>0</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ts_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Temperature factor - πT :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_ts_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ts_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_ts_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>90</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_ts_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_transistor">
+      <property name="geometry">
+       <rect>
+        <x>925</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_ts_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_fuse">
+     <attribute name="title">
+      <string>Fuse</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_fs_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>640</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Fuse failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_fs_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_14">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>40</y>
+        <width>301</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_fs_type">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>0</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_fs_environment">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>91</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_fs_environment">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_fs_fuse_type">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Fuse type:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_15">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>40</y>
+        <width>301</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_fs_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_fs_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_fs_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>0</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_fs_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_fuse">
+      <property name="geometry">
+       <rect>
+        <x>925</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_fs_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_resistor">
+     <attribute name="title">
+      <string>Resistor</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_16">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>431</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_res_style">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>10</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_style">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>10</y>
+         <width>121</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Resistor style:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_t">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>30</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Resistor Case Temperature - T:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_res_w">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>70</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_w">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Power Dissipiation - W:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_res_environment">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>130</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_environment">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_quality">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>150</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_res_quality">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>160</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_res_case_temp">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>40</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_case_temp">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>40</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>40</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_w">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>70</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>70</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_res_stress">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>100</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_stress">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>100</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Stress : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_stress">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>100</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_41">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>100</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_17">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>50</y>
+        <width>301</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_res_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>0</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Temperature factor - πT :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_pi_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Power factor - πP :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_pi_p">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>120</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>150</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_res_pi_s">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Power stress factor - πS :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_res_pi_s">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>90</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_res_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_res_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>640</y>
+        <width>200</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Resistor failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_res_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_res">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_rd">
+     <attribute name="title">
+      <string>Rotating Devices, Motors</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_bearings">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>470</width>
+        <height>460</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Bearing Failures</string>
+      </property>
+      <widget class="QLabel" name="label_rd_bearing_ambient_temperature">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ambient temperature - TA :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rd_bearing_ambient_temperature">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>40</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_bearing_characteristic_life">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>70</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Weibull characteristic life αB (hours) :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_bearing_characteristic_life">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>80</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_bearing_motor_type">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>140</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Motor type :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rd_bearing_motor_type">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>140</y>
+         <width>181</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_bearing_a_determination">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_bearing_a_determination">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>170</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>A Determination :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_bearing_lambda1_determination">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>270</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>λ1 Determination :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_bearing_lambda1_determination">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>270</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rd_bearing_LC">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>240</y>
+         <width>181</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_bearing_LC">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>240</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Life Cycle / αB : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_rd_bearing_fr">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>380</y>
+         <width>200</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Bearing failure rate</string>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_rd_bearing_fr">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>200</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>40</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_bearing_ambient_temperature">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>40</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="Line" name="line_12">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>120</y>
+         <width>441</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_33">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>210</y>
+         <width>441</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_winding">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>30</y>
+        <width>470</width>
+        <height>460</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Winding Failures</string>
+      </property>
+      <widget class="QLabel" name="label_rd_winding_ambient_temperature">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ambient temperature - TA :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rd_winding_ambient_temperature">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>40</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_winding_characteristic_life">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>70</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Weibull characteristic life αW (hours) :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_winding_characteristic_life">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>80</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_winding_motor_type">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>140</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Motor type :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rd_winding_motor_type">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>140</y>
+         <width>181</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_winding_b_determination">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>170</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_winding_b_determination">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>170</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>B Determination :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_winding_lambda2_determination">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>270</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>λ2 Determination :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_winding_lambda2_determination">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>270</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rd_winding_LC">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>240</y>
+         <width>181</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rd_winding_LC">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>240</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Life Cycle / αW :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_rd_winding_fr">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>380</y>
+         <width>200</width>
+         <height>70</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Winding failure rate</string>
+       </property>
+       <widget class="QLineEdit" name="lineEdit_rd_winding_fr">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>200</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>40</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rd_winding_ambient_temperature">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>40</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="Line" name="line_34">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>441</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_35">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>441</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_rd">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_rd_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_rd_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>640</y>
+        <width>231</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Rotating Device failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_rd_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="Line" name="line_13">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>30</y>
+        <width>20</width>
+        <height>441</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_rel">
+     <attribute name="title">
+      <string>Relays</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_18">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>40</y>
+        <width>431</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_rel_ambient_temperature">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>0</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_ambient_temperature">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>0</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Ambient temperature - TA :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_stress">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>80</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_stress">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>70</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Stress : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_environment">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>320</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_environment">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>310</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_quality">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>280</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_quality">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>290</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_rated_temperature">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_rated_temperature">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>30</y>
+         <width>161</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Rated  temperature :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_load_type">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>100</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Load type : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_load_type">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>110</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_contact_form">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>160</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_contact_form">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>150</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Contact form : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_cycle_rate">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>200</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cycle rate : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_cycle_rate">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>210</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_contact_rating">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>370</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_contact_rating">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>360</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Contact rating : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_application_type">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>400</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_application_type">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>390</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Aplication type : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_rel_construction_type">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>430</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_construction_type">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>420</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Construction type :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>0</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_ambient_temperature">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>0</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>80</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_stress">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>80</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_cycle_rate">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>240</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_cycle_rate_2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>230</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Enter cycle rate : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_19">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>50</y>
+        <width>301</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_rel_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>20</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>310</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>310</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>280</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>280</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_pi_l">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>100</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_pi_l">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Load stress factor - πL :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_pi_c">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>150</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_pi_c">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Contact form factor - πC :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_pi_cyc">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>200</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cycling factor - πCYC :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_pi_cyc">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>200</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_rel_pi_f">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>420</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>πF :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_rel_pi_f">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>420</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_rel_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_rel_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>640</y>
+        <width>231</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Relay failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_rel_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_rel">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_con_gen">
+     <attribute name="title">
+      <string>Connectors, General</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_20">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>50</y>
+        <width>421</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_con_gen_description">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>0</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_description">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>0</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Description : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_con_gen_environment">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>120</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_c">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_quality">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>90</y>
+         <width>131</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_con_gen_quality">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>90</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_con_gen_t0">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_t0">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>T0 : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_cycles">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Mating / Unmating cycles : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_con_gen_cycles">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>60</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_gen_t0">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>30</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>30</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_21">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>50</y>
+        <width>361</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_con_gen_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>0</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>120</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_gen_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>120</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>90</y>
+         <width>171</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_gen_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>90</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_gen_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_pi_t">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Temperature factor - πT :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_gen_pi_k">
+       <property name="geometry">
+        <rect>
+         <x>-10</x>
+         <y>60</y>
+         <width>221</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Mating / Unmating factor - πK :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_gen_pi_k">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_con_gen_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_con_gen_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>640</y>
+        <width>271</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Connector (general) failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_con_gen_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_con_gen">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_con_sock">
+     <attribute name="title">
+      <string>Connectors, Sockets</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_22">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>50</y>
+        <width>381</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_con_sock_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>0</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>90</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_sock_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>90</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_sock_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_sock_pi_p">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_pi_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Active pins factor - πP :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_23">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>50</y>
+        <width>441</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_con_sock_description">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>0</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_description">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>0</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Description : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_con_sock_environment">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>90</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_environment">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>80</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_quality">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_con_sock_quality">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_con_sock_numb_of_active_contacts">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>60</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_con_sock_numb_of_active_coils">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>60</y>
+         <width>161</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>No. of active contacts : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>60</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_con_sock_numb_of_active_contacts">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>60</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_con_sock_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_con_sock_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>640</y>
+        <width>231</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Socket failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_con_sock_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_con_sock">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_qrtz">
+     <attribute name="title">
+      <string>Quartz crystals</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_24">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>50</y>
+        <width>441</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_qrtz_frequency">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>0</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_qrtz_frequency">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Frequency, f (MHz) : </string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_qrtz_environment">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>60</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_qrtz_environment">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>50</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_qrtz_quality">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox_qrtz_quality">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>30</y>
+         <width>191</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>0</y>
+         <width>21</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>or</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_qrtz_frequency">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>0</y>
+         <width>70</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_25">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>50</y>
+        <width>381</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_qrtz_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>0</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_qrtz_lambda_b">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>0</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Base failure rate - λb :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_qrtz_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Environment factor - πE :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_qrtz_pi_e">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>60</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_qrtz_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quality factor - πQ :</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_qrtz_pi_q">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>30</y>
+         <width>113</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_c_qrtz_warning_box">
+      <property name="geometry">
+       <rect>
+        <x>15</x>
+        <y>640</y>
+        <width>330</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_qrtz_lambda_p">
+      <property name="geometry">
+       <rect>
+        <x>455</x>
+        <y>640</y>
+        <width>231</width>
+        <height>70</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Quartz Crystal failure rate - λp</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_qrtz_lamda_p">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>200</width>
+         <height>27</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="addButton_c_ee_qrtz">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>650</y>
+        <width>125</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Add Equipment</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1100</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

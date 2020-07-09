@@ -1,6 +1,0 @@
-Variable: {
-degisken1: 10,
-degisken2: 20,
-degisken3: degisken1+ degisken2,
-sayi1: 10
-}

@@ -1,0 +1,1041 @@
+---
+Electrical Equipment:
+    Quartz Crystals:
+        Frequency:
+            f_0_5: 0.011
+            f_1_0: 0.013
+            f_5_0: 0.019
+            f_10_0: 0.022
+            f_15_0: 0.024
+            f_20_0: 0.026
+            f_25_0: 0.027
+            f_30_0: 0.028
+            f_35_0: 0.029
+            f_40_0: 0.030
+            f_45_0: 0.031
+            f_50_0: 0.032
+            f_55_0: 0.033
+            f_60_0: 0.033
+            f_65_0: 0.034
+            f_70_0: 0.035
+            f_75_0: 0.035
+            f_80_0: 0.036
+            f_85_0: 0.036
+            f_90_0: 0.037
+            f_95_0: 0.037
+            f_100_0: 0.037
+            f_105_0: 0.038
+
+        Environment:
+            G B: 1.0
+            G F: 3.0
+            G M: 10
+
+        Quality:
+            MIL-SPEC: 1.0
+            Lower: 2.1
+        
+    Connectors, Sockets:
+        Description:
+            Dual-ln-Line Package: 0.00064
+            Single-ln-Line Package: 0.00064
+            Chip Carrier: 0.00064
+            Pin Grid Array: 0.00064
+            Relay: 0.037
+            Transistor: 0.0051
+            Electron Tube, CRT: 0.011
+
+        Quality:
+            MIL-SPEC: 0.3
+            Lower: 1.0
+        
+        Number of Active Contacts:
+            numb_1: 1.0
+            numb_2: 1.5
+            numb_3: 1.7
+            numb_4: 1.9
+            numb_5: 2.0
+            numb_6: 2.1
+            numb_7: 2.3
+            numb_8: 2.4
+            numb_9: 2.5
+            numb_10: 2.6
+            numb_11: 2.7
+            numb_12: 2.8
+            numb_13: 2.9
+            numb_14: 3.0
+            numb_15: 3.1
+            numb_16: 3.2
+            numb_17: 3.3
+            numb_18: 3.4
+            numb_19: 3.5
+            numb_20: 3.6
+            numb_25: 4.1
+            numb_30: 4.5
+            numb_35: 5.0
+            numb_40: 5.5
+            numb_45: 5.9
+            numb_50: 6.4
+            numb_55: 6.9
+            numb_60: 7.4
+            numb_65: 7.9
+            numb_70: 8.4
+            numb_75: 8.9
+            numb_80: 9.4
+            numb_85: 9.9
+            numb_90: 10
+            numb_95: 11
+            numb_100: 12
+            numb_105: 12
+            numb_110: 13
+            numb_115: 13
+            numb_120: 14
+            numb_125: 14
+            numb_130: 15
+            numb_135: 16
+            numb_140: 16
+            numb_145: 17
+            numb_150: 18
+            numb_155: 18
+            numb_160: 19
+            numb_165: 20
+            numb_170: 20
+            numb_175: 21
+            numb_180: 22
+
+        Environment:
+            G B: 1.0
+            G F: 3.0
+            G M: 14
+
+    Connectors, General:
+        Description:
+            Circular - Cylindrical: 0.0010
+            Card Edge (PCB)*: 0.040
+            Hexagonal: 0.15
+            Rack and Panel: 0.021
+            Rectangular: 0.046
+            RF Coaxial: 0.00041
+            Telephone: 0.0075
+            Power: 0.0070
+            Triaxia: 0.0036
+
+        Ambient Temperature:
+            t_20: 0.91
+            t_30: 1.1
+            t_40: 1.3
+            t_50: 1.5
+            t_60: 1.8
+            t_70: 2.0
+            t_80: 2.3
+            t_90: 2.7
+            t_100: 3.0
+            t_110: 3.4
+            t_120: 3.7
+            t_130: 4.1
+            t_140: 4.6
+            t_150: 5.0
+            t_160: 5.5
+            t_170: 6.0
+            t_180: 6.5
+            t_190: 7.0
+            t_200: 7.5
+            t_210: 8.1
+            t_220: 8.6
+            t_230: 9.2
+            t_240: 9.8
+            t_250: 10.0
+        
+        Mating-Unmating Cycles:
+            0_to_0_05: 1.0
+            g_0_05_to_0_5: 1.5 
+            g_0_5_to_5: 2.0
+            g_5_to_50: 3.0
+            g_50: 4.0
+        
+        Quality:
+            MIL-SPEC: 1
+            Lower: 2
+        
+        Environment:
+            G B: 1.0
+            G F: 1.0
+            G M: 8.0
+        
+            
+
+    Relays:
+        Ambient Temperature:
+            t_25:
+                r_85: 0.0059
+                r_125: 0.0059
+            t_30:
+                r_85: 0.0067
+                r_125: 0.0066
+            t_35:
+                r_85: 0.0075
+                r_125: 0.0073
+            t_40:
+                r_85: 0.0084
+                r_125: 0.0081
+            t_45:
+                r_85: 0.0094
+                r_125: 0.0089
+            t_50:
+                r_85: 0.010
+                r_125: 0.0098
+            t_55:
+                r_85: 0.012
+                r_125: 0.011
+            t_60:
+                r_85: 0.013
+                r_125: 0.012
+            t_65:
+                r_85: 0.014
+                r_125: 0.013
+            t_70:
+                r_85: 0.016
+                r_125: 0.014
+            t_75:
+                r_85: 0.017
+                r_125: 0.015
+            t_80:
+                r_85: 0.019
+                r_125: 0.017
+            t_85:
+                r_85: 0.021
+                r_125: 0.018
+            t_90:
+                r_125: 0.019
+            t_95:
+                r_125: 0.021
+            t_100:
+                r_125: 0.022
+            t_105:
+                r_125: 0.024
+            t_110:
+                r_125: 0.026
+            t_115:
+                r_125: 0.027
+            t_120:
+                r_125: 0.029
+            t_125:
+                r_125: 0.031
+        
+        Stress:
+            s_0_05:
+                Resistive: 1.00
+                Inductive: 1.02
+                Lamp: 1.06
+            s_0_1:
+                Resistive: 1.02
+                Inductive: 1.06
+                Lamp: 1.28
+            s_0_2:
+                Resistive: 1.06
+                Inductive: 1.28
+                Lamp: 2.72
+            s_0_3:
+                Resistive: 1.15
+                Inductive: 1.76
+                Lamp: 9.49
+            s_0_4:
+                Resistive: 1.28
+                Inductive: 2.72
+                Lamp: 54.6
+            s_0_5:
+                Resistive: 1.48
+                Inductive: 4.77
+            s_0_6:
+                Resistive: 1.76
+                Inductive: 9.49
+            s_0_7:
+                Resistive: 2.15
+                Inductive: 21.4
+            s_0_8:
+                Resistive: 2.72
+            s_0_9:
+                Resistive: 3.55
+            s_1_0:
+                Resistive: 4.77
+
+        
+        Contact Form:
+            SPST: 1.00
+            DPST: 1.50
+            SPDT: 1.75
+            3PST: 2.00
+            4PST: 2.50
+            DPDT: 3.00
+            3PDT: 4.25
+            4PDT: 5.50
+            6PDT: 8.00
+        
+        Cycle Rate:
+            ge_1_0 (MIL-SPEC): None # Formul
+            s_1_0 (MIL-SPEC): 0.1
+            g_1000 (Commercial Quality): None # Formul
+            btw_10_and_100 (Commercial Quality): None # Formul
+            s_10 (Commercial Quality): 1.0
+        
+        Quality:
+            R: 0.10
+            P: 0.30
+            X: 0.45
+            U: 0.60
+            M: 1.0
+            L: 1.5
+            MIL-SPEC, Non-Est. Rel.: 1.5
+            Commercial: 2.9
+
+        Environment:
+            G B: 1.0
+            G F: 2.0
+            G M: 15
+        
+        pi_f:
+            Signal Current:
+                Dry Circuit:
+                    Armature (Long): 4
+                    Dry Reed: 6
+                    Mercury Wetted: 1
+                    Magnetic Latching: 4
+                    Balanced Armature: 7
+                    Solenoid: 7
+            0-5 Amp:
+                General Purpose:
+                    Armature (Long): 3
+                    Balanced Armature: 5 
+                    Solenoid: 6
+                Sensitive (0 - 100 mw):
+                    Armature (Long and Short): 5
+                    Mercury Wetted: 2
+                    Magnetic Latching: 6
+                    Meter Movement: 100
+                    Balanced Armature: 10
+                Polarized:
+                    Armature (Short): 10
+                    Meter Movement: 100
+                Vibrating Reed:
+                    Dry Reed: 6
+                    Mercury Wetted: 1
+                High Speed:
+                    Armature (Balanced and Short): 25
+                    Dry Reed: 6
+                Thermal Time Delay:
+                    Bimetal: 10
+                Electronic Time Delay, Non-Thermal: 9
+                Latching, Magnetic:
+                    Dry Reed: 10
+                    Mercury Wetted: 5
+                    Balanced armature: 5
+            5-20 Amp:
+                High Voltage:
+                    Vacuum (Glass): 20
+                    Vacuum (Ceramic): 5
+                Medium Power:
+                    Armature (Long and Short): 3
+                    Mercury Wetted: 1
+                    Magnetic Latching: 2
+                    Mechanical Latching: 3 
+                    Balanced Armature: 2
+                    Solenoid: 2
+            25-600 Amp:
+                Contactors (High Current):
+                    Armature (Short): 7
+                    Mechanical Latching: 12
+                    Balanced Armature: 10
+                    Solenoid: 5
+
+    Rotating Devices:
+        Bearing Characteristic Life:
+            t_0: 3600
+            t_10: 13000
+            t_20: 39000
+            t_30: 78000
+            t_40: 80000
+            t_50: 55000
+            t_60: 35000
+            t_70: 22000
+            t_80: 14000
+            t_90: 9100
+            t_100: 6100
+            t_110: 4200
+            t_120: 2900
+            t_130: 2100
+            t_140: 1500
+
+        Winding Characteristic Life:
+            t_0: 6.4e+06
+            t_10: 3.2e+06
+            t_20: 1.6e+06
+            t_30: 8.9e+05
+            t_40: 5.0e+05
+            t_50: 2.9e+05
+            t_60: 1.8e+05
+            t_70: 1.1e+05
+            t_80: 7.0e+04
+            t_90: 4.6e+04
+            t_100: 3.1e+04
+            t_110: 2.1e+04
+            t_120: 1.5e+04
+            t_130: 1.0e+04
+            t_140: 7.5e+03
+        
+        A Determination:
+            Electrical (General): 1.9
+            Sensor: 0.48
+            Servo: 2.4
+            Stepper: 11
+
+        B Determination:
+            Electrical (General): 1.9
+            Sensor: 0.48
+            Servo: 2.4
+            Stepper: 11
+        
+        Lambda1 Determination:
+            btw_0_and_0_10: 0.13
+            btw_0_11_and_0_20: 0.15
+            btw_0_21_and_0_30: 0.23
+            btw_0_31_and_0_40: 0.31
+            btw_0_41_and_0_50: 0.41
+            btw_0_51_and_0_60: 0.51
+            btw_0_61_and_0_70: 0.61
+            btw_0_71_and_0_80: 0.68
+            btw_0_81_and_0_9: 0.76
+            g_1_0: 1.0
+
+        Lambda2 Determination:
+            btw_0_and_0_10: 0.13
+            btw_0_11_and_0_20: 0.15
+            btw_0_21_and_0_30: 0.23
+            btw_0_31_and_0_40: 0.31
+            btw_0_41_and_0_50: 0.41
+            btw_0_51_and_0_60: 0.51
+            btw_0_61_and_0_70: 0.61
+            btw_0_71_and_0_80: 0.68
+            btw_0_81_and_0_9: 0.76
+            g_1_0: 1.0
+
+
+    Resistor:
+        Resistor Style:
+            RC: 0.0017
+            RCR: 0.0017
+            RL: 0.0037
+            RLR: 0.0037
+            RN: 0.0037
+            RM: 0.0037
+            RD: 0.0037
+            RZ: 0.0019
+            RB: 0.0024
+            RB R: 0.0024
+            RW: 0.0024
+            RWR: 0.0024
+            RE: 0.0024
+            RE R: 0.0024
+            RTH: 0.0019
+            RT: 0.0024
+            RTR: 0.0024
+            RR: 0.0024
+            RA: 0.0024
+            RK: 0.0024
+            RP: 0.0024
+            RJ: 0.0037
+            RJ R: 0.0037
+            RV: 0.0037
+            RQ: 0.0037
+            RV C: 0.0037
+
+        Temperature Factor:
+            t_20:
+                column_1: 0.88
+                column_2: 0.95
+            t_30:
+                column_1: 1.1
+                column_2: 1.1
+            t_40:
+                column_1: 1.5
+                column_2: 1.2
+            t_50:
+                column_1: 1.8
+                column_2: 1.3
+            t_60:
+                column_1: 2.3
+                column_2: 1.4
+            t_70:
+                column_1: 2.8
+                column_2: 1.5
+            t_80:
+                column_1: 3.4
+                column_2: 1.6
+            t_90:
+                column_1: 4.0
+                column_2: 1.7
+            t_100:
+                column_1: 4.8
+                column_2: 1.9
+            t_110:
+                column_1: 5.6
+                column_2: 2.0
+            t_120:
+                column_1: 6.6
+                column_2: 2.1
+            t_130:
+                column_1: 7.6
+                column_2: 2.3
+            t_140:
+                column_1: 8.7
+                column_2: 2.4
+            t_150:
+                column_1: 10
+                column_2: 2.5
+            
+        Power Factor:
+            w_0_001: 0.068
+            w_0_01: 0.17
+            w_0_13: 0.44
+            w_0_25: 0.58
+            w_0_5: 0.76
+            w_0_75: 0.89
+            w_1_0: 1.0
+            w_2_0: 1.3
+            w_3_0: 1.5
+            w_4_0: 1.7
+            w_5_0: 1.9
+            w_10_0: 2.5
+            w_25_0: 3.5
+            w_50_0: 4.6
+            w_100_0: 6.0
+            w_150_0: 7.1
+
+        Power Stress Factor:
+            s_0_1:
+                column_1: 0.79
+                column_2: 0.66
+            s_0_2:
+                column_1: 0.88
+                column_2: 0.81
+            s_0_3:
+                column_1: 0.99
+                column_2: 1.0
+            s_0_4:
+                column_1: 1.1
+                column_2: 1.2
+            s_0_5:
+                column_1: 1.2
+                column_2: 1.5
+            s_0_6:
+                column_1: 1.4
+                column_2: 1.8
+            s_0_7:
+                column_1: 1.5
+                column_2: 2.3
+            s_0_8:
+                column_1: 1.7
+                column_2: 2.8
+            s_0_9: 
+                column_1: 1.9
+                column_2: 3.4
+        
+        Environment:
+            GB: 1.0
+            GF: 4.0
+            GM: 16
+        
+        Quality:
+            S: 0.03
+            R: 0.1
+            P: 0.3
+            M: 1.0
+            Non Established: 3.0
+            Commercial or Unknown: 10
+
+
+
+    Capacitor:
+        Capacitor Style:
+            cp: 0.00037
+            ca: 0.00037
+            cz_czr: 0.00037
+            cq_cqr: 0.00051
+            ch: 0.00037
+            chr: 0.00051
+            cfr: 0.00051
+            crh: 0.00051
+            cm: 0.00076
+            cmr: 0.00076
+            cb: 0.00076
+            cy: 0.00076
+            cyr: 0.00076
+            ck: 0.00099
+            ckr: 0.00099
+            cc_ccr: 0.00099
+            cdr: 0.0020
+            csr: 0.00040
+            cwr: 0.00005
+            cl: 0.00040
+            clr: 0.00040
+            crl: 0.00040
+            cu_cur: 0.00012
+            ce: 0.00012
+            cv: 0.0079
+            pc: 0.0060
+            ct: 0.0000072
+            cg: 0.0060
+
+
+        Temperature Factor:
+            column_1:
+                c_20: 0.91
+                c_30: 1.1
+                c_40: 1.3
+                c_50: 1.6
+                c_60: 1.8
+                c_70: 2.2
+                c_80: 2.5
+                c_90: 2.8
+                c_100: 3.2
+                c_110: 3.7
+                c_120: 4.1
+                c_130: 4.6
+                c_140: 5.1
+                c_150: 5.6
+
+            column_2:
+                c_20: 0.79
+                c_30: 1.3
+                c_40: 1.9
+                c_50: 2.9
+                c_60: 4.2
+                c_70: 6.0
+                c_80: 8.4
+                c_90: 11.0
+                c_100: 15.0
+                c_110: 21.0
+                c_120: 27.0
+                c_130: 35.0
+                c_140: 44.0
+                c_150: 56.0
+
+        Capacitance Factor:
+            column_1:
+                cf_1e-06: 0.29
+                cf_1e-05: 0.35
+                cf_0_0001: 0.44
+                cf_0_001: 0.54
+                cf_0_01: 0.66
+                cf_0_05: 0.76
+                cf_0_1: 0.81
+                cf_0_5: 0.94
+                cf_1_0: 1.0
+                cf_3_0: 1.1
+                cf_8_0: 1.2
+                cf_18_0: 1.3
+                cf_40_0: 1.4
+                cf_200_0: 1.6
+                cf_1000_0: 1.9
+                cf_3000_0: 2.1
+                cf_10000_0: 2.3
+                cf_30000_0: 2.5
+                cf_60000_0: 2.7
+                cf_120000_0: 2.9
+                
+            column_2:
+                cf_1e-06: 0.04
+                cf_1e-05: 0.07
+                cf_0_0001: 0.12
+                cf_0_001: 0.20
+                cf_0_01: 0.35
+                cf_0_05: 0.50
+                cf_0_1: 0.59
+                cf_0_5: 0.85
+                cf_1_0: 1.0
+                cf_3_0: 1.3
+                cf_8_0: 1.6
+                cf_18_0: 1.9
+                cf_40_0: 2.3
+                cf_200_0: 3.4
+                cf_1000_0: 4.9
+                cf_3000_0: 6.3
+                cf_10000_0: 8.3
+                cf_30000_0: 11.0
+                cf_60000_0: 13.0
+                cf_120000_0: 15.0
+
+        Voltage Stress:
+            column_1:
+                vs_0_1: 1.0
+                vs_0_2: 1.0
+                vs_0_3: 1.0
+                vs_0_4: 1.1
+                vs_0_5: 1.4
+                vs_0_6: 2.0
+                vs_0_7: 3.2
+                vs_0_8: 5.2
+                vs_0_9: 8.6
+                vs_1_0: 14.0
+                
+            column_2:
+                vs_0_1: 1.0
+                vs_0_2: 1.0
+                vs_0_3: 1.0
+                vs_0_4: 1.0
+                vs_0_5: 1.2
+                vs_0_6: 2.0
+                vs_0_7: 5.7
+                vs_0_8: 19.0
+                vs_0_9: 59.0
+                vs_1_0: 166.0
+                
+            column_3:
+                vs_0_1: 1.0
+                vs_0_2: 1.0
+                vs_0_3: 1.1
+                vs_0_4: 1.3
+                vs_0_5: 1.6
+                vs_0_6: 2.0
+                vs_0_7: 2.6
+                vs_0_8: 3.4
+                vs_0_9: 4.4
+                vs_1_0: 5.6
+                
+            column_4:
+                vs_0_1: 1.0
+                vs_0_2: 1.0
+                vs_0_3: 1.0
+                vs_0_4: 1.0
+                vs_0_5: 1.0
+                vs_0_6: 2.0
+                vs_0_7: 15.0
+                vs_0_8: 130.0
+                vs_0_9: 990.0
+                vs_1_0: 5900.0
+                
+            column_5:
+                vs_0_1: 1.0
+                vs_0_2: 1.1
+                vs_0_3: 1.2
+                vs_0_4: 1.5
+                vs_0_5: 2.0
+                vs_0_6: 2.7
+                vs_0_7: 3.7
+                vs_0_8: 5.1
+                vs_0_9: 6.8
+                vs_1_0: 9.0
+
+        Circuit Resistance:
+                cr_g_0_8: 0.66
+                cr_g_0_6_to_0_8: 1.0
+                cr_g_0_4_to_0_6: 1.3
+                cr_g_0_2_to_0_4: 2.0
+                cr_g_0_1_to_0_2: 2.7
+                cr_0_to_0_1: 3.3
+
+        Quality:
+                d: 0.001
+                c: 0.01
+                s_b: 0.03
+                r: 0.1
+                p: 0.3
+                m: 1.0
+                l: 1.5
+                nonestablished_reliability_capacitors: 3.0
+                commercial_or_unknown_screening: 10.0
+
+        Environment Factor:
+                g_b: 1.0
+                g_f: 10.0
+                g_m: 20.0
+                n_s: 7.0
+                n_u: 15.0
+                a_ic: 12.0
+                a_if: 15.0
+                a_uc: 15.0
+                a_uf: 30.0
+                a_gw: 40.0
+                s_f: 0.50
+                m_f: 20.0
+                m_l: 50.0
+                c_l: 570.0
+
+    Diode:
+        Base Failure Rate:
+            General Purpose Analog: 0.0038                      # 1
+            Switching: 0.0010                                   # 2
+            Fast Recovery Power Rectifier: 0.025                # 3
+            Power Rectifier: 0.0030                             # 4
+            Power Rectifier With High Voltage Stacks: 0.0050    # 5
+            Transient Suppressor: 0.0013                        # 6
+            Current Regulator: 0.0034                           # 7
+            Voltage Regulator: 0.0020                           # 8
+            Voltage Reference: 0.0020                           # 9
+
+
+        Temperature Factor: # General Purpose Analog, Switching, Fast Recovery, Power Rectifier, Transient Suppressor
+            column_1:   #_1_2_3_4_5_6
+                c_25: 1.0
+                c_30: 1.2
+                c_35: 1.4
+                c_40: 1.6
+                c_45: 1.9
+                c_50: 2.2
+                c_55: 2.6
+                c_60: 3.0
+                c_65: 3.4
+                c_70: 3.9
+                c_75: 4.4
+                c_80: 5.0
+                c_85: 5.7
+                c_90: 6.4
+                c_95: 7.2
+                c_100: 8.0
+                c_105: 9.0
+                c_110: 10.0
+                c_115: 11.0
+                c_120: 12.0
+                c_125: 14.0
+                c_130: 15.0
+                c_135: 16.0
+                c_140: 18.0
+                c_145: 20.0
+                c_150: 21.0
+                c_155: 23.0
+                c_160: 25.0
+                c_165: 28.0
+                c_170: 30.0
+                c_175: 32.0
+
+            column_2:       # _7_8_9 # Voltage Regulator, Voltage Reference and Current Regulator
+                c_25: 1.0
+                c_30: 1.1
+                c_35: 1.2
+                c_40: 1.4
+                c_45: 1.5
+                c_50: 1.6
+                c_55: 1.8
+                c_60: 2.0
+                c_65: 2.1
+                c_70: 2.3
+                c_75: 2.5
+                c_80: 2.7
+                c_85: 3.0
+                c_90: 3.2
+                c_95: 3.4
+                c_100: 3.7
+                c_105: 3.9
+                c_110: 4.2
+                c_115: 4.5
+                c_120: 4.8
+                c_125: 5.1
+                c_130: 5.4
+                c_135: 5.7
+                c_140: 6.0
+                c_145: 6.4
+                c_150: 6.7
+                c_155: 7.1
+                c_160: 7.5
+                c_165: 7.9
+                c_170: 8.3
+                c_175: 8.7
+
+        Electrical Stress Factor:
+            column_1:       # _1_2_3_4_5
+                esf_s_0_30: 0.054
+                esf_g_0_3_and_0_4: 0.35
+                esf_g_0_4_and_0_5: 0.45
+                esf_g_0_5_and_0_6: 0.55
+                esf_g_0_6_and_0_7: 0.65
+                esf_g_0_7_and_0_8: 0.75
+                esf_g_0_8_and_0_9: 0.85
+                esf_g_0_9_and_1_0: 0.95
+            
+            column_2:       # _6_7_8_9:   # Transient Suppressor, Voltage Regulator, Voltage Reference, Current Regulator
+                esf_s_0_30: 0.054
+                esf_g_0_3_and_0_4: 0.11
+                esf_g_0_4_and_0_5: 0.19
+                esf_g_0_5_and_0_6: 0.29
+                esf_g_0_6_and_0_7: 0.42
+                esf_g_0_7_and_0_8: 0.58
+                esf_g_0_8_and_0_9: 0.77
+                esf_g_0_9_and_1_0: 1.0
+        
+            
+
+        Contact Construction Factor:
+            Netallurgically Bonded: 1.0
+            Non Metallurgically Bonded: 2.0
+            Spring Loaded Contacts: 2.0
+
+        Quality Factor:
+            JANTXV: 0.7
+            JANTX: 1.0
+            JAN: 2.4
+            Lower: 5.5
+            Plastic: 8.0
+
+        Environment Factor:
+            g_b: 1.0
+            g_f: 6.0
+            g_m: 9.0
+            n_s: 9.0
+            n_u: 19.0
+            a_ic: 13.0
+            a_if: 29.0
+            a_uc: 20.0
+            a_uf: 43.0
+            s_f: 0.50
+            m_f: 14.0
+            m_l: 32.0
+            c_l: 320.0
+
+
+    Inductor:
+        Inductor Type:
+            Fixed Inductor or Choke: 0.000030
+            Variable Inductor: 0.000050
+
+        Quality Factor:
+            S: 0.03
+            R: 0.10
+            P: 0.30
+            M: 1.0
+            MIL_SPEC: 1.0
+            Lower: 3.0
+
+        Temperature Factor:
+            c_20: 0.93
+            c_30: 1.1
+            c_40: 1.2
+            c_50: 1.4
+            c_60: 1.6
+            c_70: 1.8
+            c_80: 1.9
+            c_90: 2.2
+            c_100: 2.4
+            c_110: 2.6
+            c_120: 2.8
+            c_130: 3.1
+            c_140: 3.3
+            c_150: 3.5
+            c_160: 3.8
+            c_170: 4.1
+            c_180: 4.3
+            c_190: 4.6
+
+        Environment Factor:
+            g_b: 1.0
+            g_f: 6.0
+            g_m: 12.0
+            n_s: 5.0
+            n_u: 16.0
+            a_ic: 6.0
+            a_if: 8.0
+            a_uc: 7.0
+            a_uf: 9.0
+            a_rw: 24.0
+            s_f: 0.50
+            m_f: 13.0
+            m_l: 34.0
+            c_l: 610.0
+        
+        Delta_T Approximations:
+            MIL_C_39010_1C_3C: 15
+            MIL_C_39010_5C: 15
+            MIL_C_39010_7C: 15
+            MIL_C_39010_9A: 15
+            MIL_C_39010_10A: 15
+            MIL_C_39010_13: 15
+            MIL_C_39010_14: 15
+            MIL_C_39010_4C: 35
+            MIL_C_39010_6C: 35
+            MIL_C_39010_8A: 35
+            MIL_C_39010_11: 35
+            MIL_C_39010_12: 35
+
+
+    Transistor:
+        Transistor Type:
+            MOSFET: 0.60
+            JFET: 0.023
+
+        Quality Factor:
+            JANTXV: 0.50
+            JANTX: 1.0
+            JAN: 2.0
+            Lower: 5.0
+
+        Temperature Factor:
+            c_25: 1.0
+            c_30: 1.1
+            c_35: 1.2
+            c_40: 1.4
+            c_45: 1.5
+            c_50: 1.6
+            c_55: 1.8
+            c_60: 2.0
+            c_65: 2.1
+            c_70: 2.3
+            c_75: 2.5
+            c_80: 2.7
+            c_85: 3.0
+            c_90: 3.2
+            c_95: 3.4
+            c_100: 3.7
+            c_105: 3.9
+            c_110: 4.2
+            c_115: 4.5
+            c_120: 4.8
+            c_125: 5.1
+            c_130: 5.4
+            c_135: 5.7
+            c_140: 6.0
+            c_145: 6.4
+            c_150: 6.7
+            c_155: 7.1
+            c_160: 7.5
+            c_165: 7.9
+            c_170: 8.3
+            c_175: 8.7
+
+        Environment Factor:
+            g_b: 1.0
+            g_f: 2.0
+            g_m: 5.0
+            n_s: 4.0
+            n_u: 11
+            a_ic: 4.0
+            a_if: 5.0
+            a_uc: 7.0
+            a_uf: 12
+            a_rw: 16
+            s_f: 0.50
+            m_f: 9.0
+            m_l: 24
+            c_l: 250
+
+
+    Fuse:
+        Base Failure Rate:
+            W_F_1726: 0.010
+            W_F_1814: 0.010
+            MIL_F_5372: 0.010
+            MIL_F_23419: 0.010
+            ML_F_15160: 0.010
+
+        Environment Factor:
+            g_b: 1.0
+            g_f: 2.0
+            g_m: 8.0
+            n_s: 5.0
+            n_u: 11
+            a_ic: 9.0
+            a_if: 12
+            a_uc: 15
+            a_uf: 18
+            a_rw: 16
+            s_f: 0.90
+            m_f: 10
+            m_l: 21
+            c_l: 230

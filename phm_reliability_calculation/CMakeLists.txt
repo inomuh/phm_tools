@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(phm_reliability_calculation)
+
+find_package(catkin REQUIRED COMPONENTS
+  rospy
+  std_msgs
+  roslint
+  rosunit
+)
+
+catkin_python_setup()
+
+catkin_package(CATKIN_DEPENDS std_msgs )
+
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
+
+
+foreach(dir launch src test)
+    install(DIRECTORY ${dir}/
+        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
+endforeach()
+
+#catkin_add_nosetests(test/test_phm_reliability_estimation_node.py)
+#catkin_add_nosetests(test/test_class_reliability_calculation.py)

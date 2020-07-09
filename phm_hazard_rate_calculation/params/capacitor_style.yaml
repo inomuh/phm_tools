@@ -1,0 +1,169 @@
+---
+Capacitor Style:
+    cp:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    ca:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    cz_czr:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    cq_cqr:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    ch:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    chr:
+      {"Temperature Factor": 1,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 1, 
+        "Circuit Resistance": 1}
+    
+    cfr:
+      {"Temperature Factor": 1,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 1, 
+        "Circuit Resistance": 1}
+    
+    crh:
+      {"Temperature Factor": 1,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 1, 
+        "Circuit Resistance": 1}
+    
+    cm:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 2, 
+      "Circuit Resistance": 1}
+    
+    cmr:
+      {"Temperature Factor": 2,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 2, 
+        "Circuit Resistance": 1}
+    
+    cb:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 2, 
+      "Circuit Resistance": 1}
+    
+    cy:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 2, 
+      "Circuit Resistance": 1}
+    
+    cyr:
+      {"Temperature Factor": 2,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 2, 
+        "Circuit Resistance": 1}
+    
+    ck:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 3, 
+      "Circuit Resistance": 1}
+    
+    ckr:
+      {"Temperature Factor": 2,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 3, 
+        "Circuit Resistance": 1}
+    
+    cc_ccr:
+      {"Temperature Factor": 2,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 3, 
+        "Circuit Resistance": 1}
+    
+    cdr:
+      {"Temperature Factor": 2,
+        "Capacitance Factor": 1,
+        "Voltage Stress": 3, 
+        "Circuit Resistance": 1}
+    
+    csr:
+      {"Temperature Factor": 1,
+        "Capacitance Factor": 2,
+        "Voltage Stress": 4, 
+        "Circuit Resistance": "pi_sr"}
+    
+    cwr:
+      {"Temperature Factor": 1,
+        "Capacitance Factor": 2,
+        "Voltage Stress": 4, 
+        "Circuit Resistance": "pi_sr"}
+    
+    cl:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 2,
+      "Voltage Stress": 4, 
+      "Circuit Resistance": 1}
+    
+    clr:
+      {"Temperature Factor": 1,
+        "Capacitance Factor": 2,
+        "Voltage Stress": 4, 
+        "Circuit Resistance": 1}
+    
+    crl:
+      {"Temperature Factor": 1,
+        "Capacitance Factor": 2,
+        "Voltage Stress": 4, 
+        "Circuit Resistance": 1}
+    
+    cu_cur:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 2,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    ce:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 2,
+      "Voltage Stress": 1, 
+      "Circuit Resistance": 1}
+    
+    cv:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 5, 
+      "Circuit Resistance": 1}
+    
+    pc:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 5, 
+      "Circuit Resistance": 1}
+    
+    ct:
+      {"Temperature Factor": 2,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 5, 
+      "Circuit Resistance": 1}
+    
+    cg:
+      {"Temperature Factor": 1,
+      "Capacitance Factor": 1,
+      "Voltage Stress": 5, 
+      "Circuit Resistance": 1}
