@@ -49,7 +49,8 @@ before_install:
   - sudo apt-get install -y python-catkin-pkg python-rosdep python-wstool ros-$ROS_DISTRO-ros-base
   - source /opt/ros/$ROS_DISTRO/setup.bash
   # Prepare rosdep to install dependencies.
-  - sudo apt-get install ros-kinetic-roslint  
+  - sudo apt-get install ros-kinetic-roslint
+  - sudo apt-get install ros-kinetic-rosunit
   - sudo rosdep init
   - rosdep update
   - pip install --user pydot
