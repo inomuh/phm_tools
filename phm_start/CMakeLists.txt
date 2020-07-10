@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_python_setup()
 
-catkin_package(CATKIN_DEPENDS rospy std_msgs roslint rostest rosunit )
+catkin_package(CATKIN_DEPENDS rospy std_msgs rostest )
 
 include_directories(
   ${catkin_INCLUDE_DIRS}
