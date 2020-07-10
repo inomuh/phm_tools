@@ -3,7 +3,7 @@ Changelog for package phm_hazard_rate_calculation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 0.1.0 (2020-07-10)
------------
+------------------
 * 0.1.0
 * Updated
 * Updated
