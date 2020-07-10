@@ -5023,6 +5023,8 @@ class PHMGui(object):
         self.delete_module_from_configuration_func(module_name)
 
         # Remove selected module from comboboxes, also.
+        self.monitoring_regeneration_module_func()
+
         ind1 = self.comboBox_c_ao_asm_select_module.findText(str(module_name))
         self.comboBox_c_ao_asm_select_module.removeItem(ind1)
 
