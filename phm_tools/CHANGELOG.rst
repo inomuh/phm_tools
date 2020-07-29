@@ -2,6 +2,12 @@
 Changelog for package phm_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.2 (2020-07-29)
+------------------
+* Added Acknowledgement
+* Added phm_rosbag folder
+
+
 1.0.1 (2020-07-10)
 ------------------
 * No change

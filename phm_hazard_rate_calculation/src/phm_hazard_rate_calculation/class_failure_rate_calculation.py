@@ -16,25 +16,25 @@ class FailureRateCalculation:
         """
             λ = λ0 * (P / P0) ^ 3
         """
-        result = float(failure_rate * pow((p_value / p_0), 3))
+        result = float(failure_rate * pow(float(p_value / p_0), 3))
 
         return result
 
     @classmethod
-    def failure_rate_calculation_using_temperature_func(cls, failure_rate, time_value, t_0):
+    def failure_rate_calculation_using_temperature_func(cls, failure_rate, temperature_value, t_0):
         """
             λ = λ0 * (2 ^ ((T - T0) / 10))
         """
-        result = float(float(failure_rate) * pow(2, float(float(time_value - t_0) / 10)))
+        result = float(float(failure_rate) * pow(2, float(float(temperature_value - t_0) / 10)))
 
         return result
 
     @classmethod
-    def failure_rate_calculation_using_operating_load_and_temperature_func(cls, failure_rate, p_value, p_0, time_value, t_0):
+    def failure_rate_calculation_using_operating_load_and_temperature_func(cls, failure_rate, p_value, p_0, temperature_value, t_0):
         """
             λ = λ0 * ((P / P0) ^ 3) * (2 ^ ((T - T0) / 10))
         """
-        result = float(failure_rate * pow((p_value / p_0), 3) * pow(2, ((time_value - t_0) / 10)))
+        result = float(failure_rate * pow((p_value / p_0), 3) * pow(2, float(float(temperature_value - t_0) / 10)))
 
         return result
 
