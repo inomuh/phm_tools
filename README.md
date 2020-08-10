@@ -6,7 +6,7 @@ PHM TOOLS Metapackage
 
 
 ### Acknowledgement
-ROSinPS project is developed by Inovasyon Muhendislik Ltd. (http://www.inovasyonmuhendislik.com)
+Prognostic & Health Management (PHM) Tool for Robot Operating System (ROS) project is developed by Inovasyon Muhendislik Ltd. (http://www.inovasyonmuhendislik.com)
 
 ***
 <!-- 
