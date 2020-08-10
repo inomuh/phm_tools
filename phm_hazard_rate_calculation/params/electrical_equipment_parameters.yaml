@@ -34,7 +34,7 @@ Electrical Equipment:
         Quality:
             MIL-SPEC: 1.0
             Lower: 2.1
-        
+
     Connectors, Sockets:
         Description:
             Dual-ln-Line Package: 0.00064
@@ -48,7 +48,7 @@ Electrical Equipment:
         Quality:
             MIL-SPEC: 0.3
             Lower: 1.0
-        
+
         Number of Active Contacts:
             numb_1: 1.0
             numb_2: 1.5
@@ -145,24 +145,22 @@ Electrical Equipment:
             t_230: 9.2
             t_240: 9.8
             t_250: 10.0
-        
+
         Mating-Unmating Cycles:
             0_to_0_05: 1.0
-            g_0_05_to_0_5: 1.5 
+            g_0_05_to_0_5: 1.5
             g_0_5_to_5: 2.0
             g_5_to_50: 3.0
             g_50: 4.0
-        
+
         Quality:
             MIL-SPEC: 1
             Lower: 2
-        
+
         Environment:
             G B: 1.0
             G F: 1.0
             G M: 8.0
-        
-            
 
     Relays:
         Ambient Temperature:
@@ -221,7 +219,7 @@ Electrical Equipment:
                 r_125: 0.029
             t_125:
                 r_125: 0.031
-        
+
         Stress:
             s_0_05:
                 Resistive: 1.00
@@ -259,7 +257,6 @@ Electrical Equipment:
             s_1_0:
                 Resistive: 4.77
 
-        
         Contact Form:
             SPST: 1.00
             DPST: 1.50
@@ -270,14 +267,14 @@ Electrical Equipment:
             3PDT: 4.25
             4PDT: 5.50
             6PDT: 8.00
-        
+
         Cycle Rate:
-            ge_1_0 (MIL-SPEC): None # Formul
+            ge_1_0 (MIL-SPEC): None                     # Formul
             s_1_0 (MIL-SPEC): 0.1
-            g_1000 (Commercial Quality): None # Formul
-            btw_10_and_100 (Commercial Quality): None # Formul
+            g_1000 (Commercial Quality): None           # Formul
+            btw_10_and_100 (Commercial Quality): None   # Formul
             s_10 (Commercial Quality): 1.0
-        
+
         Quality:
             R: 0.10
             P: 0.30
@@ -292,7 +289,7 @@ Electrical Equipment:
             G B: 1.0
             G F: 2.0
             G M: 15
-        
+
         pi_f:
             Signal Current:
                 Dry Circuit:
@@ -305,7 +302,7 @@ Electrical Equipment:
             0-5 Amp:
                 General Purpose:
                     Armature (Long): 3
-                    Balanced Armature: 5 
+                    Balanced Armature: 5
                     Solenoid: 6
                 Sensitive (0 - 100 mw):
                     Armature (Long and Short): 5
@@ -337,7 +334,7 @@ Electrical Equipment:
                     Armature (Long and Short): 3
                     Mercury Wetted: 1
                     Magnetic Latching: 2
-                    Mechanical Latching: 3 
+                    Mechanical Latching: 3
                     Balanced Armature: 2
                     Solenoid: 2
             25-600 Amp:
@@ -381,7 +378,7 @@ Electrical Equipment:
             t_120: 1.5e+04
             t_130: 1.0e+04
             t_140: 7.5e+03
-        
+
         A Determination:
             Electrical (General): 1.9
             Sensor: 0.48
@@ -393,7 +390,7 @@ Electrical Equipment:
             Sensor: 0.48
             Servo: 2.4
             Stepper: 11
-        
+
         Lambda1 Determination:
             btw_0_and_0_10: 0.13
             btw_0_11_and_0_20: 0.15
@@ -417,7 +414,6 @@ Electrical Equipment:
             btw_0_71_and_0_80: 0.68
             btw_0_81_and_0_9: 0.76
             g_1_0: 1.0
-
 
     Resistor:
         Resistor Style:
@@ -491,7 +487,7 @@ Electrical Equipment:
             t_150:
                 column_1: 10
                 column_2: 2.5
-            
+
         Power Factor:
             w_0_001: 0.068
             w_0_01: 0.17
@@ -535,15 +531,15 @@ Electrical Equipment:
             s_0_8:
                 column_1: 1.7
                 column_2: 2.8
-            s_0_9: 
+            s_0_9:
                 column_1: 1.9
                 column_2: 3.4
-        
+
         Environment:
             GB: 1.0
             GF: 4.0
             GM: 16
-        
+
         Quality:
             S: 0.03
             R: 0.1
@@ -551,8 +547,6 @@ Electrical Equipment:
             M: 1.0
             Non Established: 3.0
             Commercial or Unknown: 10
-
-
 
     Capacitor:
         Capacitor Style:
@@ -584,7 +578,6 @@ Electrical Equipment:
             pc: 0.0060
             ct: 0.0000072
             cg: 0.0060
-
 
         Temperature Factor:
             column_1:
@@ -641,7 +634,7 @@ Electrical Equipment:
                 cf_30000_0: 2.5
                 cf_60000_0: 2.7
                 cf_120000_0: 2.9
-                
+
             column_2:
                 cf_1e-06: 0.04
                 cf_1e-05: 0.07
@@ -676,7 +669,7 @@ Electrical Equipment:
                 vs_0_8: 5.2
                 vs_0_9: 8.6
                 vs_1_0: 14.0
-                
+
             column_2:
                 vs_0_1: 1.0
                 vs_0_2: 1.0
@@ -688,7 +681,7 @@ Electrical Equipment:
                 vs_0_8: 19.0
                 vs_0_9: 59.0
                 vs_1_0: 166.0
-                
+
             column_3:
                 vs_0_1: 1.0
                 vs_0_2: 1.0
@@ -700,7 +693,7 @@ Electrical Equipment:
                 vs_0_8: 3.4
                 vs_0_9: 4.4
                 vs_1_0: 5.6
-                
+
             column_4:
                 vs_0_1: 1.0
                 vs_0_2: 1.0
@@ -712,7 +705,7 @@ Electrical Equipment:
                 vs_0_8: 130.0
                 vs_0_9: 990.0
                 vs_1_0: 5900.0
-                
+
             column_5:
                 vs_0_1: 1.0
                 vs_0_2: 1.1
@@ -726,39 +719,39 @@ Electrical Equipment:
                 vs_1_0: 9.0
 
         Circuit Resistance:
-                cr_g_0_8: 0.66
-                cr_g_0_6_to_0_8: 1.0
-                cr_g_0_4_to_0_6: 1.3
-                cr_g_0_2_to_0_4: 2.0
-                cr_g_0_1_to_0_2: 2.7
-                cr_0_to_0_1: 3.3
+            cr_g_0_8: 0.66
+            cr_g_0_6_to_0_8: 1.0
+            cr_g_0_4_to_0_6: 1.3
+            cr_g_0_2_to_0_4: 2.0
+            cr_g_0_1_to_0_2: 2.7
+            cr_0_to_0_1: 3.3
 
         Quality:
-                d: 0.001
-                c: 0.01
-                s_b: 0.03
-                r: 0.1
-                p: 0.3
-                m: 1.0
-                l: 1.5
-                nonestablished_reliability_capacitors: 3.0
-                commercial_or_unknown_screening: 10.0
+            d: 0.001
+            c: 0.01
+            s_b: 0.03
+            r: 0.1
+            p: 0.3
+            m: 1.0
+            l: 1.5
+            nonestablished_reliability_capacitors: 3.0
+            commercial_or_unknown_screening: 10.0
 
         Environment Factor:
-                g_b: 1.0
-                g_f: 10.0
-                g_m: 20.0
-                n_s: 7.0
-                n_u: 15.0
-                a_ic: 12.0
-                a_if: 15.0
-                a_uc: 15.0
-                a_uf: 30.0
-                a_gw: 40.0
-                s_f: 0.50
-                m_f: 20.0
-                m_l: 50.0
-                c_l: 570.0
+            g_b: 1.0
+            g_f: 10.0
+            g_m: 20.0
+            n_s: 7.0
+            n_u: 15.0
+            a_ic: 12.0
+            a_if: 15.0
+            a_uc: 15.0
+            a_uf: 30.0
+            a_gw: 40.0
+            s_f: 0.50
+            m_f: 20.0
+            m_l: 50.0
+            c_l: 570.0
 
     Diode:
         Base Failure Rate:
@@ -772,9 +765,8 @@ Electrical Equipment:
             Voltage Regulator: 0.0020                           # 8
             Voltage Reference: 0.0020                           # 9
 
-
-        Temperature Factor: # General Purpose Analog, Switching, Fast Recovery, Power Rectifier, Transient Suppressor
-            column_1:   #_1_2_3_4_5_6
+        Temperature Factor:             # General Purpose Analog, Switching, Fast Recovery, Power Rectifier, Transient Suppressor
+            column_1:                   # _1_2_3_4_5_6
                 c_25: 1.0
                 c_30: 1.2
                 c_35: 1.4
@@ -807,7 +799,7 @@ Electrical Equipment:
                 c_170: 30.0
                 c_175: 32.0
 
-            column_2:       # _7_8_9 # Voltage Regulator, Voltage Reference and Current Regulator
+            column_2:                   # _7_8_9 # Voltage Regulator, Voltage Reference and Current Regulator
                 c_25: 1.0
                 c_30: 1.1
                 c_35: 1.2
@@ -850,7 +842,7 @@ Electrical Equipment:
                 esf_g_0_7_and_0_8: 0.75
                 esf_g_0_8_and_0_9: 0.85
                 esf_g_0_9_and_1_0: 0.95
-            
+
             column_2:       # _6_7_8_9:   # Transient Suppressor, Voltage Regulator, Voltage Reference, Current Regulator
                 esf_s_0_30: 0.054
                 esf_g_0_3_and_0_4: 0.11
@@ -860,8 +852,6 @@ Electrical Equipment:
                 esf_g_0_7_and_0_8: 0.58
                 esf_g_0_8_and_0_9: 0.77
                 esf_g_0_9_and_1_0: 1.0
-        
-            
 
         Contact Construction Factor:
             Netallurgically Bonded: 1.0
@@ -889,7 +879,6 @@ Electrical Equipment:
             m_f: 14.0
             m_l: 32.0
             c_l: 320.0
-
 
     Inductor:
         Inductor Type:
@@ -939,7 +928,7 @@ Electrical Equipment:
             m_f: 13.0
             m_l: 34.0
             c_l: 610.0
-        
+
         Delta_T Approximations:
             MIL_C_39010_1C_3C: 15
             MIL_C_39010_5C: 15
@@ -953,7 +942,6 @@ Electrical Equipment:
             MIL_C_39010_8A: 35
             MIL_C_39010_11: 35
             MIL_C_39010_12: 35
-
 
     Transistor:
         Transistor Type:

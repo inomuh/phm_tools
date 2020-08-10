@@ -30,6 +30,7 @@ class RobotTaskCompletionNode:
 
         Rate = 1
     """
+
     def __init__(self):
         self.phm_gui_control = False
         self.phm_gui_actual_potc = ""

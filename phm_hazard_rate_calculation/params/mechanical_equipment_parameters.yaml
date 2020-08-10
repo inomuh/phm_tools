@@ -93,7 +93,7 @@ Mechanical Equipment:
         Uniform: 1.50
         Medium Shock: 1.75
         Heavy Shock: 2.25
-    
+
   Actuators:
     Yield strengths:
       Ordinary structural steel: 30         # - 40
@@ -110,7 +110,7 @@ Mechanical Equipment:
       Magnesium alloy: 11                   # - 30
     Material hardness:
       Plain carbon steels:
-        Low strength steel:  140
+        Low strength steel: 140
         High strength steel: 220
       Low-alloy Steels:
         n4320: 640
@@ -171,7 +171,7 @@ Mechanical Equipment:
         Assumed ambient temperature: 40
         Allowable temperature rise: 135
         Hot spot allowance: 5
-  
+
   Mechanical Couplings:
     Driven Machinery:
       Uniform:
@@ -196,14 +196,14 @@ Mechanical Equipment:
         Nonferrous Alloy: 0.35
         Wrought Aluminum Alloy: 0.40
         Cast Aluminum Alloy: 0.30
-    
+
     Shaft surface finish factor:    # c_f
       Polished: 1.0
       Ground: 0.89
       Hot Rolled: 0.0
       Machined or Cold Drawn: 0.0
       Forged: 0.0
-    
+
     Shaft material strength:  # E
       Alloy Steel: 30
       Stainless Steel: 29
@@ -212,43 +212,43 @@ Mechanical Equipment:
       Low Alloy Caststeel: 30
       Cast Aluminum: 10.3
       Wrought Aluminum: 10.45  # between 10.3 and 10.6
-    
+
     Allowable shaft bending:    # b --> default = 0.007
       Actuator: 0.007
       Compressor: 0.025
       Motor: 0.010
       Pump: 0.007
-    
+
     Stress concentration factor:  # csc_g
       h_D_0_05:
-         h_r_0_1: 1.10
-         h_r_0_5: 1.45
-         h_r_1_0: 1.60
-         h_r_2_0: 2.00
-         h_r_4_0: 2.05
+        h_r_0_1: 1.10
+        h_r_0_5: 1.45
+        h_r_1_0: 1.60
+        h_r_2_0: 2.00
+        h_r_4_0: 2.05
       h_D_0_10:
-         h_r_0_1: 1.00
-         h_r_0_5: 1.27
-         h_r_1_0: 1.40
-         h_r_2_0: 1.70
-         h_r_4_0: 2.00
-         h_r_6_0: 2.25
+        h_r_0_1: 1.00
+        h_r_0_5: 1.27
+        h_r_1_0: 1.40
+        h_r_2_0: 1.70
+        h_r_4_0: 2.00
+        h_r_6_0: 2.25
       h_D_0_20:
-         h_r_0_1: 1.00
-         h_r_0_5: 1.10
-         h_r_1_0: 1.20
-         h_r_2_0: 1.31
-         h_r_4_0: 1.60
-         h_r_6_0: 1.75
-         h_r_8_0: 2.00
+        h_r_0_1: 1.00
+        h_r_0_5: 1.10
+        h_r_1_0: 1.20
+        h_r_2_0: 1.31
+        h_r_4_0: 1.60
+        h_r_6_0: 1.75
+        h_r_8_0: 2.00
       h_D_0_30:
-         h_r_0_1: 1.00
-         h_r_0_5: 1.10
-         h_r_1_0: 1.10
-         h_r_2_0: 1.20
-         h_r_4_0: 1.35
-         h_r_6_0: 1.48
-         h_r_8_0: 1.55
+        h_r_0_1: 1.00
+        h_r_0_5: 1.10
+        h_r_1_0: 1.10
+        h_r_2_0: 1.20
+        h_r_4_0: 1.35
+        h_r_6_0: 1.48
+        h_r_8_0: 1.55
 
   Battery:
     Device type:
@@ -256,6 +256,3 @@ Mechanical Equipment:
       Secondary cells:
         Ni-Cd: 100
         Li-Ion: 150
-
-
-

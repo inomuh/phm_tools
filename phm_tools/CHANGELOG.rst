@@ -2,6 +2,11 @@
 Changelog for package phm_tools
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2020-08-08)
+------------------
+* Added url and exec_depend in package.xml
+
+
 1.0.2 (2020-07-29)
 ------------------
 * Added Acknowledgement

@@ -20,6 +20,7 @@ class ReliabilityCalculation:
 
             Reliability Types = Exponential, Rayleigh, Weibull, Curve Distribution
         """
+
         reliability = 1.0
         unit = 1
 

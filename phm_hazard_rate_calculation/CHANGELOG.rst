@@ -2,6 +2,11 @@
 Changelog for package phm_hazard_rate_calculation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2020-08-08)
+------------------
+* Changed yaml and CMakeLists files
+
+
 1.0.2 (2020-07-29)
 ------------------
 * Changed attributes name

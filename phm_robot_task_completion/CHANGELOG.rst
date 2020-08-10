@@ -2,6 +2,11 @@
 Changelog for package phm_robot_task_completion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.3 (2020-08-08)
+------------------
+* Changed CMakeLists file
+
+
 1.0.2 (2020-07-29)
 ------------------
 * No change

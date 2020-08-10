@@ -8,9 +8,18 @@
   <maintainer email="elcin.erdogan@inovasyonmuhendislik.com">Elcin ERDOGAN</maintainer>
 
   <license>Apache 2.0</license>
+  <url>http://wiki.ros.org/phm_tools</url>
 
 
   <buildtool_depend>catkin</buildtool_depend>
+
+
+  <exec_depend>agv_msgs</exec_depend>
+  <exec_depend>phm_hazard_rate_calculation</exec_depend>
+  <exec_depend>phm_msgs</exec_depend>
+  <exec_depend>phm_reliability_calculation</exec_depend>
+  <exec_depend>phm_robot_task_completion</exec_depend>
+  <exec_depend>phm_start</exec_depend>
 
   <export>
     <metapackage/>

@@ -18,7 +18,7 @@ class TestElectricalEquipment(unittest.TestCase):
     def test_qrtz_lambda_b_func(self):
         self.e_eq.qrtz_lambda_b_func(5)
         result = self.e_eq.get_qrtz_lambda_b()
-        test_result = 0.018823763306560406  
+        test_result = 0.018823763306560406
         # result = float(0.013 * pow(5, 0.23))
 
         self.assertAlmostEqual(result, test_result, 5)

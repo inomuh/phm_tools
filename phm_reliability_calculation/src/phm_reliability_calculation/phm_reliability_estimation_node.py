@@ -26,6 +26,7 @@ class ReliabilityEstimationNode:
 
         Rate = 1
     """
+
     def __init__(self):
         self.phm_gui_control = False
         self.phm_gui_reliability = ""
